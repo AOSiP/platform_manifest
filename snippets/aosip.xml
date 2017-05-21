@@ -110,7 +110,6 @@
   <project path="hardware/ril-caf" name="platform_hardware_ril" remote="aosip" revision="nougat-mr2-caf" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
   <project path="libcore" name="platform_libcore" remote="aosip" />
-  <project path="packages/apps/AudioFX" name="platform_packages_apps_AudioFX" remote="aosip" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="aosip" />
   <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" remote="aosip" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" remote="aosip" />
@@ -124,6 +123,7 @@
   <project path="packages/apps/HTMLViewer" name="platform_packages_apps_HTMLViewer" remote="aosip" />
   <project path="packages/apps/KeyChain" name="platform_packages_apps_KeyChain" remote="aosip" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="aosip" />
+  <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" remote="aosip" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" />
   <project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" remote="aosip" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="aosip" />
