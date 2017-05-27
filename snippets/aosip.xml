@@ -28,6 +28,7 @@
   <project path="external/chromium-webview" name="platform_external_chromium-webview" remote="aosip" />
   <project path="external/connectivity" name="platform_external_connectivity" remote="aosip" />
   <project path="external/DUtils" name="platform_external_DUtils" remote="aosip" />
+  <project path="external/dhcpcd-6.8.2" name="platform_external_dhcpcd-6.8.2" remote="aosip" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aosip" />
   <project path="external/ebtables" name="platform_external_ebtables" remote="aosip" />
   <project path="external/exfat" name="platform_external_exfat" remote="aosip" />
