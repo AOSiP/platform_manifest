@@ -2,7 +2,8 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
 
   <remote name="github"
            fetch="https://github.com/" />
@@ -11,7 +12,7 @@
            fetch="https://github.com/AOSiP"
            revision="refs/heads/nougat-mr2" />
 
-  <default revision="refs/tags/android-7.1.2_r8"
+  <default revision="refs/tags/android-7.1.2_r12"
            remote="aosp"
            sync-j="8"
            sync-c="true" />
