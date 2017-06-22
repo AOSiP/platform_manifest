@@ -5,12 +5,15 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
-  <remote name="github"
+  <remote  name="github"
            fetch="https://github.com/" />
 
   <remote  name="aosip"
            fetch="https://github.com/AOSiP"
            revision="refs/heads/nougat-mr2" />
+
+  <remote  name="devices"
+           fetch="https://github.com/AOSiP-Devices" />
 
   <default revision="refs/tags/android-7.1.2_r12"
            remote="aosp"
