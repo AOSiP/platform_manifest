@@ -25,7 +25,7 @@
   <project path="external/brctl" name="platform_external_brctl" remote="aosip" />
   <project path="external/busybox" name="platform_external_busybox" remote="aosip" />
   <project path="external/bzip2" name="platform_external_bzip2" remote="aosip" />
-  <project path="external/chromium-webview" name="platform_external_chromium-webview" remote="aosip" />
+  <project path="external/chromium-webview" name="platform_external_chromium-webview" remote="aosip" clone-depth="1" />
   <project path="external/connectivity" name="platform_external_connectivity" remote="aosip" />
   <project path="external/DUtils" name="platform_external_DUtils" remote="aosip" />
   <project path="external/dhcpcd-6.8.2" name="platform_external_dhcpcd-6.8.2" remote="aosip" />
