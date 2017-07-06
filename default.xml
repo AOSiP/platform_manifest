@@ -15,7 +15,7 @@
   <remote  name="devices"
            fetch="https://github.com/AOSiP-Devices" />
 
-  <default revision="refs/tags/android-7.1.2_r12"
+  <default revision="refs/tags/android-7.1.2_r24"
            remote="aosp"
            sync-j="8"
            sync-c="true" />
@@ -253,7 +253,6 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/opencv3" name="platform/external/opencv3" groups="pdk" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk" />
   <project path="external/openssh" name="platform/external/openssh" groups="pdk" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" />
