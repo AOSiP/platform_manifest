@@ -33,9 +33,11 @@
   <remove-project name="platform/external/ipsec-tools" />
   <remove-project name="platform/external/jemalloc" />
   <remove-project name="platform/external/libchrome" />
+  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libnfc-nci" />
   <remove-project name="platform/external/libnfc-nxp" />
   <remove-project name="platform/external/libselinux" />
+  <remove-project name="platform/external/libunwind_llvm" />
   <remove-project name="platform/external/lz4" />
   <remove-project name="platform/external/lzma" />
   <remove-project name="platform/external/okhttp" />
@@ -43,6 +45,7 @@
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/tinyxml2" />
+  <remove-project name="platform/external/vulkan-validation-layers" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/frameworks/av" />

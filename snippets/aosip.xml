@@ -41,12 +41,14 @@
   <project path="external/jemalloc" name="platform_external_jemalloc" remote="aosip" />
   <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
   <project path="external/libchrome" name="platform_external_libchrome" remote="aosip"  />
+  <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="aosip" />
   <project path="external/libncurses" name="platform_external_libncurses" remote="aosip" />
   <project path="external/libnetfilter_conntrack" name="platform_external_libnetfilter_conntrack" remote="aosip" />
   <project path="external/libnfc-nci" name="platform_external_libnfc-nci"  remote="aosip" />
   <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp"  remote="aosip" />
   <project path="external/libnfnetlink" name="platform_external_libnfnetlink" remote="aosip" />
   <project path="external/libselinux" name="platform_external_libselinux" remote="aosip" />
+  <project path="external/libunwind_llvm" name="platform_external_libunwind_llvm" remote="aosip" />
   <project path="external/lz4" name="platform_external_lz4" remote="aosip" />
   <project path="external/lzma" name="platform_external_lzma" remote="aosip" />
   <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aosip" />
@@ -59,6 +61,7 @@
   <project path="external/tinyalsa" name="platform_external_tinyalsa" remote="aosip" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
   <project path="external/tinyxml2" name="platform_external_tinyxml2" remote="aosip" />
+  <project path="external/vulkan-validation-layers" name="platform_external_vulkan-validation-layers" remote="aosip" />
   <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8"  remote="aosip" />
   <project path="external/yaffs2" name="platform_external_yaffs2" remote="aosip" />
   <project path="external/zlib" name="platform_external_zlib" remote="aosip" />
