@@ -23,6 +23,7 @@
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/android-clat" />
+  <remove-project name="platform/external/apache-http" />
   <remove-project name="platform/external/boringssl" />
   <remove-project name="platform/external/bzip2" />
   <remove-project name="platform/external/chromium-webview" />

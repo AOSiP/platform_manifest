@@ -21,6 +21,7 @@
   <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="aosip" />
   <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="aosip" />
   <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="aosip" />
+  <project path="external/apache-http" name="platform_external_apache-http" remote="aosip" />
   <project path="external/boringssl" name="platform_external_boringssl" remote="aosip" />
   <project path="external/brctl" name="platform_external_brctl" remote="aosip" />
   <project path="external/busybox" name="platform_external_busybox" remote="aosip" />
