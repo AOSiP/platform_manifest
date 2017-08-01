@@ -57,6 +57,7 @@
   <project path="external/powertop" name="platform_external_powertop" remote="aosip" />
   <project path="external/protobuf-c" name="platform_external_protobuf-c" remote="aosip" />
   <project path="external/skia" name="platform_external_skia" remote="aosip" />
+  <project path="external/sqlite" name="platform_external_sqlite" remote="aosip" />
   <project path="external/stagefright-plugins" name="platform_external_stagefright-plugins" remote="aosip" />
   <project path="external/stlport" name="platform_external_stlport" remote="aosip" />
   <project path="external/tinyalsa" name="platform_external_tinyalsa" remote="aosip" />
