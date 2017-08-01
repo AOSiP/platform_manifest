@@ -16,55 +16,31 @@
   </project>
   <project path="device/qcom/common" name="device_qcom_common" remote="aosip" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
-  <project path="external/ahbottomnavigation" name="platform_external_ahbottomnavigation" remote="aosip" />
   <project path="external/android-clat" name="platform_external_android-clat" remote="aosip" />
-  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="aosip" />
-  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="aosip" />
-  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="aosip" />
   <project path="external/apache-http" name="platform_external_apache-http" remote="aosip" />
   <project path="external/boringssl" name="platform_external_boringssl" remote="aosip" />
-  <project path="external/brctl" name="platform_external_brctl" remote="aosip" />
-  <project path="external/busybox" name="platform_external_busybox" remote="aosip" />
   <project path="external/bzip2" name="platform_external_bzip2" remote="aosip" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/connectivity" name="platform_external_connectivity" remote="aosip" />
   <project path="external/DUtils" name="platform_external_DUtils" remote="aosip" />
   <project path="external/dhcpcd-6.8.2" name="platform_external_dhcpcd-6.8.2" remote="aosip" />
-  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aosip" />
-  <project path="external/ebtables" name="platform_external_ebtables" remote="aosip" />
-  <project path="external/exfat" name="platform_external_exfat" remote="aosip" />
-  <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="aosip" />
-  <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="aosip" />
-  <project path="external/fuse" name="platform_external_fuse" remote="aosip" />
-  <project path="external/gson" name="platform_external_gson" remote="aosip" />
   <project path="external/iproute2" name="platform_external_iproute2" remote="aosip" />
   <project path="external/ipsec-tools" name="platform_external_ipsec-tools" remote="aosip" />
   <project path="external/jemalloc" name="platform_external_jemalloc" remote="aosip" />
-  <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
   <project path="external/libchrome" name="platform_external_libchrome" remote="aosip"  />
   <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="aosip" />
-  <project path="external/libncurses" name="platform_external_libncurses" remote="aosip" />
-  <project path="external/libnetfilter_conntrack" name="platform_external_libnetfilter_conntrack" remote="aosip" />
-  <project path="external/libnfc-nci" name="platform_external_libnfc-nci"  remote="aosip" />
-  <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp"  remote="aosip" />
-  <project path="external/libnfnetlink" name="platform_external_libnfnetlink" remote="aosip" />
   <project path="external/libselinux" name="platform_external_libselinux" remote="aosip" />
   <project path="external/libunwind_llvm" name="platform_external_libunwind_llvm" remote="aosip" />
   <project path="external/lz4" name="platform_external_lz4" remote="aosip" />
   <project path="external/lzma" name="platform_external_lzma" remote="aosip" />
-  <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aosip" />
   <project path="external/okhttp" name="platform_external_okhttp" remote="aosip" />
-  <project path="external/powertop" name="platform_external_powertop" remote="aosip" />
-  <project path="external/protobuf-c" name="platform_external_protobuf-c" remote="aosip" />
   <project path="external/skia" name="platform_external_skia" remote="aosip" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="aosip" />
-  <project path="external/stagefright-plugins" name="platform_external_stagefright-plugins" remote="aosip" />
   <project path="external/stlport" name="platform_external_stlport" remote="aosip" />
   <project path="external/tinyalsa" name="platform_external_tinyalsa" remote="aosip" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
   <project path="external/tinyxml2" name="platform_external_tinyxml2" remote="aosip" />
   <project path="external/vulkan-validation-layers" name="platform_external_vulkan-validation-layers" remote="aosip" />
-  <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8"  remote="aosip" />
   <project path="external/yaffs2" name="platform_external_yaffs2" remote="aosip" />
   <project path="external/zlib" name="platform_external_zlib" remote="aosip" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
@@ -101,7 +77,6 @@
   <project path="hardware/qcom/display-caf/msm8996" name="platform_hardware_qcom_display" remote="aosip" revision="nougat-mr2-caf-8996" />
   <project path="hardware/qcom/display-caf/msm8998" name="platform_hardware_qcom_display" remote="aosip" revision="nougat-mr2-caf-8998" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="aosip" />
-  <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" remote="aosip" />
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="aosip" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="aosip" />
   <project path="hardware/qcom/media-caf/apq8084" name="platform_hardware_qcom_media" remote="aosip" revision="nougat-mr2-caf-8084" />
@@ -160,18 +135,52 @@
   <project path="system/keymaster" name="platform_system_keymaster" remote="aosip" />
   <project path="system/media" name="platform_system_media" remote="aosip" />
   <project path="system/netd" name="platform_system_netd" remote="aosip" />
-  <project path="system/qcom" name="platform_system_qcom" remote="aosip" />
   <project path="system/security" name="platform_system_security" remote="aosip" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
   <project path="system/vold" name="platform_system_vold" remote="aosip" />
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
-  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
-  <project path="vendor/nxp-nfc/opensource/frameworks" name="platform_vendor_nxp-nfc_opensource_frameworks" remote="aosip" />
-  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="platform_vendor_nxp-nfc_opensource_libnfc-nci" remote="aosip" />
-  <project path="vendor/nxp-nfc/opensource/Nfc" name="platform_vendor_nxp-nfc_opensource_Nfc" remote="aosip" />
-  <project path="vendor/qcom/opensource/bluetooth" name="platform_vendor_qcom_opensource_bluetooth" remote="aosip" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
-  <project path="vendor/qcom/opensource/dataservices/" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" />
   <project path="vendor/qcom/opensource/dpm/" name="platform_vendor_qcom_opensource_dpm" remote="aosip" />
-  <project path="vendor/qcom/opensource/time-services/" name="platform_vendor_qcom_opensource_time-services" remote="aosip" />
+
+<!-- LineageOS -->
+  <project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" remote="github" revision="cm-14.1" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="cm-14.1" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="cm-14.1" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="cm-14.1" />
+  <project path="external/brctl" name="LineageOS/android_external_brctl" remote="github" revision="cm-14.1" />
+  <project path="external/busybox" name="LineageOS/android_external_busybox" remote="github" revision="cm-14.1" />
+  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" remote="github" revision="cm-14.1" groups="pdk" />
+  <project path="external/ebtables" name="LineageOS/android_external_ebtables" remote="github" revision="cm-14.1" />
+  <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="cm-14.1" />
+  <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="github" revision="cm-14.1" />
+  <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="cm-14.1" />
+  <project path="external/gson" name="LineageOS/android_external_gson" remote="github" revision="cm-14.1" />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="cm-14.1" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="cm-14.1" />
+  <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" remote="github" revision="cm-14.1" />
+  <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" remote="github" revision="cm-14.1" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="cm-14.1" />
+  <project path="external/powertop" name="LineageOS/android_external_powertop" remote="github" revision="cm-14.1" />
+  <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" remote="github" revision="cm-14.1" />
+  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
+  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="github" revision="cm-14.1" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" />
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" remote="github" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/dataservices/" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/time-services/" name="LineageOS/android_vendor_qcom_opensource_time-services" remote="github" revision="cm-14.1" />
+
+<!-- Others -->
+  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery/" remote="github" revision="android-7.1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="AOSP-JF-MM/platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="github" revision="aosp-7.1.2" />
+  <project path="vendor/qcom/sdclang-3.8/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="github" revision="nougat-mr2" clone-depth="1" />
+
+
 </manifest>
