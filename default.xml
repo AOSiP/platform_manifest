@@ -552,5 +552,6 @@
   <!-- AOSiP Modifications -->
   <include name="snippets/remove.xml" />
   <include name="snippets/aosip.xml" />
+  <include name="snippets/laos.xml" />
   
 </manifest>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- LineageOS -->
+  <project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" remote="github" revision="cm-14.1" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="cm-14.1" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="cm-14.1" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="cm-14.1" />
+  <project path="external/brctl" name="LineageOS/android_external_brctl" remote="github" revision="cm-14.1" />
+  <project path="external/busybox" name="LineageOS/android_external_busybox" remote="github" revision="cm-14.1" />
+  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" remote="github" revision="cm-14.1" groups="pdk" />
+  <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="cm-14.1" />
+  <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="github" revision="cm-14.1" />
+  <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="cm-14.1" />
+  <project path="external/gson" name="LineageOS/android_external_gson" remote="github" revision="cm-14.1" />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="cm-14.1" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="cm-14.1" />
+  <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" remote="github" revision="cm-14.1" />
+  <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" remote="github" revision="cm-14.1" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="cm-14.1" />
+  <project path="external/powertop" name="LineageOS/android_external_powertop" remote="github" revision="cm-14.1" />
+  <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" remote="github" revision="cm-14.1" />
+  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
+  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="github" revision="cm-14.1" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" />
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" remote="github" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/dataservices/" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/time-services/" name="LineageOS/android_vendor_qcom_opensource_time-services" remote="github" revision="cm-14.1" />
+
+<!-- Others -->
+  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery/" remote="github" revision="android-7.1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="AOSP-JF-MM/platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="github" revision="aosp-7.1.2" />
+  <project path="vendor/qcom/sdclang-3.8/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="github" revision="nougat-mr2" clone-depth="1" />
+
+</manifest>
