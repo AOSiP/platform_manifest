@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f228ef4_cb30195a",
+        "filename": "snippets/aosip.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-08-02T18:15:13Z",
+      "side": 1,
+      "message": "Lineage recently nuked from their manifest",
+      "revId": "0af8192bae14cd48dce64ad583483fd5cde71f03",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9dd625e2_2c890b71",
+        "filename": "snippets/aosip.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-08-02T18:15:13Z",
+      "side": 1,
+      "message": "y tho :P",
+      "revId": "0af8192bae14cd48dce64ad583483fd5cde71f03",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": false
+    }
+  ]
+}
