@@ -15,7 +15,7 @@
   <remote  name="devices"
            fetch="https://github.com/AOSiP-Devices" />
 
-  <default revision="refs/tags/android-7.1.2_r24"
+  <default revision="refs/tags/android-7.1.2_r29"
            remote="aosp"
            sync-j="8"
            sync-c="true" />
