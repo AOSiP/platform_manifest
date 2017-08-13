@@ -20,7 +20,6 @@
   <project path="external/apache-http" name="platform_external_apache-http" remote="aosip" />
   <project path="external/boringssl" name="platform_external_boringssl" remote="aosip" />
   <project path="external/bzip2" name="platform_external_bzip2" remote="aosip" />
-  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/connectivity" name="platform_external_connectivity" remote="aosip" />
   <project path="external/DUtils" name="platform_external_DUtils" remote="aosip" />
   <project path="external/dhcpcd-6.8.2" name="platform_external_dhcpcd-6.8.2" remote="aosip" />
@@ -106,6 +105,7 @@
   <project path="packages/apps/Exchange" name="platform_packages_apps_Exchange" remote="aosip" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="aosip" />
   <project path="packages/apps/HTMLViewer" name="platform_packages_apps_HTMLViewer" remote="aosip" />
+  <project path="packages/apps/Jelly" name="platform_packages_apps_Jelly" remote="aosip" />
   <project path="packages/apps/KeyChain" name="platform_packages_apps_KeyChain" remote="aosip" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="aosip" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" />
