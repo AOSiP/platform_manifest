@@ -140,6 +140,7 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
   <project path="system/vold" name="platform_system_vold" remote="aosip" />
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
+  <project path="vendor/qcom/opensource/bluetooth" name="platform_vendor_qcom_opensource_bluetooth" remote="aosip" />
   <project path="vendor/qcom/opensource/dpm/" name="platform_vendor_qcom_opensource_dpm" remote="aosip" />
 
 </manifest>
