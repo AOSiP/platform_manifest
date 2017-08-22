@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- AOSiP -->
+  <project path="bionic" name="platform_bionic" remote="aosip" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
+  <project path="frameworks/support" name="platform_frameworks_support" remote="aosip" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" />
+  <project path="system/core" name="platform_system_core" remote="aosip" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
+</manifest>
