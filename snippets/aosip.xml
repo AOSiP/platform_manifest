@@ -11,14 +11,21 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/kati" name="platform_build_kati" remote="aosip" />
+  <project path="build/soong" name="platform_build_soong" remote="aosip" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="bionic" name="platform_bionic" remote="aosip" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="aosip" />
   <project path="manifest" name="platform_manifest" remote="aosip" />
+  <project path="packages/apps/Jelly" name="platform_packages_apps_Jelly" remote="aosip" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" />
   <project path="system/core" name="platform_system_core" remote="aosip" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
+
 </manifest>
