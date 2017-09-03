@@ -17,6 +17,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bionic" name="platform_bionic" remote="aosip" />
+  <project path="device/aosip/sepolicy" name="platform_device_aosip_sepolicy" remote="aosip" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
