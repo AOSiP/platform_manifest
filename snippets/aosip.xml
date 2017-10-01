@@ -29,7 +29,7 @@
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
 
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" revision="oreo-new" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" revision="oreo" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="aosip" />
