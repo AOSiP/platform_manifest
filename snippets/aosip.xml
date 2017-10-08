@@ -77,7 +77,7 @@
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
   <project path="vendor/qcom-opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
   <project path="vendor/qcom/opensource/dataservices/" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" />
-  <project path="vendor/qcom-opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" >
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
   <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="lineage-15.0" />
