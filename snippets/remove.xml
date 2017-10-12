@@ -21,6 +21,8 @@
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/huawei/angler" />
+  <remove-project name="device/huawei/angler-kernel" />
   <remove-project name="device/lge/bullhead" />
   <remove-project name="device/lge/bullhead-kernel" />
   <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
