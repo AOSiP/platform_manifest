@@ -44,14 +44,17 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="aosip" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="aosip" />
   <project path="hardware/qcom/audio-caf/msm8996" name="platform_hardware_qcom_audio" remote="aosip" revision="oreo-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="platform_hardware_qcom_audio" remote="aosip" revision="oreo-caf-8998" />
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="aosip" />
   <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" remote="aosip" revision="oreo-caf" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="aosip" />
   <project path="hardware/qcom/display-caf/msm8996" name="platform_hardware_qcom_display" remote="aosip" revision="oreo-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" name="platform_hardware_qcom_display" remote="aosip" revision="oreo-caf-8998" />
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="aosip" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="aosip" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="aosip" />
   <project path="hardware/qcom/media-caf/msm8996" name="platform_hardware_qcom_media" remote="aosip" revision="oreo-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8998" name="platform_hardware_qcom_media" remote="aosip" revision="oreo-caf-8998" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="aosip" />
   <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" remote="aosip" revision="oreo-caf" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
