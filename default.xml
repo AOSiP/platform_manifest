@@ -71,10 +71,8 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
   <project path="device/google/dragon" name="device/google/dragon" groups="device,dragon,pdk" />
   <project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon,pdk" clone-depth="1" />
-  <project path="device/google/marlin" name="device/google/marlin" groups="device,marlin" />
   <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
-  <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk,pdk" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk,pdk" clone-depth="1" />
   <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead,pdk" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead,pdk" clone-depth="1" />

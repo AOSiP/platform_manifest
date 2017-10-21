@@ -65,6 +65,7 @@
   <project path="packages/apps/Jelly" name="platform_packages_apps_Jelly" remote="aosip" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="aosip" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" />
+  <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" remote="aosip" />
   <project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" remote="aosip" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="aosip" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" />
@@ -75,6 +76,7 @@
 
   <project path="system/bt" name="platform_system_bt" remote="aosip" />
   <project path="system/core" name="platform_system_core" remote="aosip" />
+  <project path="system/extras" name="platform_system_extras" remote="aosip" />
   <project path="system/media" name="platform_system_media" remote="aosip" />
   <project path="system/nfc" name="platform_system_nfc" remote="aosip" />
   <project path="system/qcom" name="platform_system_qcom" remote="aosip" />

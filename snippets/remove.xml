@@ -19,9 +19,7 @@
   <remove-project name="device/asus/fugu-kernel" />
   <remove-project name="device/google/dragon" />
   <remove-project name="device/google/dragon-kernel" />
-  <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
-  <remove-project name="device/huawei/angler" />
   <remove-project name="device/huawei/angler-kernel" />
   <remove-project name="device/lge/bullhead" />
   <remove-project name="device/lge/bullhead-kernel" />
@@ -85,6 +83,7 @@
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
@@ -107,6 +106,7 @@
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
