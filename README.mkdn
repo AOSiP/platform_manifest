@@ -10,16 +10,13 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 To initialize your local repository using the AOSiP trees, use a command like this:
 
 ```bash
-repo init -u ssh://git@github.com/AOSiP/platform_manifest.git -b oreo
+repo init -u git://github.com/AOSiP/platform_manifest.git -b oreo
 ```
 Then to sync up:
 ```bash
-repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
+repo sync -f --force-sync --no-tags --no-clone-bundle
 ```
-As the AOSP/CAF repos aren't ever updated till we update the tag we're tracking, for subsequent syncs simply run
-```bash
-./sync.sh
-```
+
 Building the source
 ---------------
 
@@ -31,15 +28,9 @@ lunch aosip_device-userdebug
 time mka kronic
 ```
 
-If you would like to limit the number of threads being used in a build to X, change the last command to
-
-```bash
-time make -jX kronic
-```
-
 ## Submitting Patches ##
 
-You can submit your patches to AOSiP just by registering at "http://review.aosiprom.com"
+You can submit your patches to AOSiP just by registering at "https://review.aosiprom.com"
 
 Open up terminal to create your ssh keys required for submitting patches to gerrit and type in:
 
@@ -82,7 +73,7 @@ For more information on how to push to a gerrit, please read the
 following: [Link](https://wiki.mahara.org/wiki/Developer_Area/Contributing_Code)
 
 Also to make this even easier, you can use a universal gerrit script provided by PAC:
-[Link](http://forum.xda-developers.com/showthread.php?t=2530388)
+[Link](https://forum.xda-developers.com/showthread.php?t=2530388)
 
 ## Maintaining Authorship ##
 Please make sure if you submit a patch/fix from another ROM that you maintain authorship.
