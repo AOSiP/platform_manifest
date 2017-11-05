@@ -76,6 +76,7 @@
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="aosip" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" />
 
   <project path="system/bt" name="platform_system_bt" remote="aosip" />

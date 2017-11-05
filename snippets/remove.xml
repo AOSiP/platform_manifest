@@ -20,6 +20,10 @@
   <remove-project name="device/google/dragon" />
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/taimen" />
+  <remove-project name="device/google/wahoo" />
+  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/huawei/angler-kernel" />
   <remove-project name="device/lge/bullhead" />
   <remove-project name="device/lge/bullhead-kernel" />
@@ -94,6 +98,7 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
