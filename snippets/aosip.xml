@@ -28,6 +28,7 @@
   <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="aosip" />
   <project path="external/connectivity" name="platform_external_connectivity" remote="aosip" />
   <project path="external/bash" name="platform_external_bash" remote="aosip" />
+  <project path="external/DUtils" name="platform_external_DUtils" remote="aosip" />
   <project path="external/ebtables" name="platform_external_ebtables" remote="aosip" />
   <project path="external/exfat" name="platform_external_exfat" remote="aosip" />
   <project path="external/fuse" name="platform_external_fuse" remote="aosip" />
@@ -77,6 +78,7 @@
   <project path="hardware/ril-caf" name="platform_hardware_ril" remote="aosip" revision="oreo-mr1-caf" />
 
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="aosip" />
+  <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="aosip" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="aosip" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" />
