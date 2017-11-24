@@ -66,6 +66,17 @@ BRANCH - i.e oreo
 PROJECT - i.e AOSIP/platform_packages_apps_OwlsNest
 USERNAME - i.e Shreesha
 
+If you're feeling extra lazy, you can submit streamline the process.  First you need to tell git about your gerrit username:
+```bash
+git config --global review.review.aosiprom.com.username <Your username registered at AOSiP gerrit>
+```
+
+Now you can run these commands to push changes to gerrit. Note: the first command only needs run once from each project.
+```bash
+gerrit
+git push gerrit HEAD:refs/for/BRANCH
+```
+
 If you are going to make extra additions, just repeat steps (don't start a new patch), but instead of git commit -m
 use git commit --amend. Gerrit will recognize it as a new patchset.
 
