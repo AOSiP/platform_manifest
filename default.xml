@@ -16,7 +16,7 @@
            fetch="https://github.com/AOSiP-Devices" 
            revision="refs/heads/oreo" />
 
-  <default revision="refs/tags/android-8.0.0_r32"
+  <default revision="refs/tags/android-8.0.0_r35"
            remote="aosp"
            sync-j="8"
            sync-c="true" />
