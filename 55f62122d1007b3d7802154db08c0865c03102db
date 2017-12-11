@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e7e4fea0_f6993819",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-12-11T06:35:16Z",
+      "side": 1,
+      "message": "Need separate remote or just use github repo in deps?",
+      "revId": "55f62122d1007b3d7802154db08c0865c03102db",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": false
+    }
+  ]
+}
