@@ -13,7 +13,7 @@
            revision="refs/heads/oreo" />
 
   <remote  name="devices"
-           fetch="https://github.com/AOSiP-Devices" 
+           fetch="https://github.com/AOSiP-Devices"
            revision="refs/heads/oreo" />
 
   <default revision="refs/tags/android-8.0.0_r35"
