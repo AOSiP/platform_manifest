@@ -2,11 +2,32 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="aosip"
+           fetch="https://github.com/AOSiP"
+           revision="refs/heads/oreo" />
+
+  <remote  name="aosip-o"
+           fetch="https://github.com/AOSiP"
+           revision="refs/heads/oreo-mr1" />
+
+  <remote  name="old"
+           fetch="https://github.com/AOSiP-old"
+           revision="refs/heads/oreo-mr1" />
+
+  <remote  name="devices"
+           fetch="https://github.com/AOSiP-Devices" 
+           revision="refs/heads/o-mr1" />
+
   <default revision="refs/tags/android-8.1.0_r1"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8"
+           sync-c="true" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -621,5 +642,8 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <include name="snippets/remove.xml" />
+  <include name="snippets/aosip.xml" />
 
 </manifest>
