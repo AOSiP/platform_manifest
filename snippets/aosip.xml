@@ -53,15 +53,18 @@
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="old" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="old" />
   <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="old" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="platform_hardware_qcom_audio" remote="old" branch="oreo-mr1-caf-msm8998" />
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="old" />
-  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" remote="old" branch="oreo-mr1-caf"/>
+  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" remote="old" branch="oreo-mr1-caf" />
   <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" remote="old" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="old" />
+  <project path="hardware/qcom/display-caf/msm8998" name="platform_hardware_qcom_display" remote="old" branch="oreo-mr1-caf-msm8998" />
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="old" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="old" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="old" />
+  <project path="hardware/qcom/media-caf/msm8998" name="platform_hardware_qcom_media" remote="old" branch="oreo-mr1-caf-msm8998" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="old" />
-  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" remote="old" branch="oreo-mr1-caf"/>
+  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" remote="old" branch="oreo-mr1-caf" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="old" />
   <project path="hardware/ril-caf" name="platform_hardware_ril" remote="old" revision="oreo-mr1-caf" />
 
