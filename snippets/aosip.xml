@@ -43,6 +43,7 @@
   <project path="external/toybox" name="platform_external_toybox" remote="aosip-o" />
 
   <project path="frameworks/av" name="platform_frameworks_av" remote="old" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="old" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="old" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="old" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="old" />
