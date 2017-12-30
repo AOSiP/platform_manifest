@@ -70,7 +70,9 @@
   <project path="hardware/ril-caf" name="platform_hardware_ril" remote="old" revision="oreo-mr1-caf" />
 
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="old" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="aosip-o" />
   <project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" remote="aosip" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip-o" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="old" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="old" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="old" />
