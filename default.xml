@@ -10,19 +10,11 @@
 
   <remote  name="aosip"
            fetch="https://github.com/AOSiP"
-           revision="refs/heads/oreo" />
-
-  <remote  name="aosip-o"
-           fetch="https://github.com/AOSiP"
-           revision="refs/heads/oreo-mr1" />
-
-  <remote  name="old"
-           fetch="https://github.com/AOSiP-old"
            revision="refs/heads/oreo-mr1" />
 
   <remote  name="devices"
            fetch="https://github.com/AOSiP-Devices" 
-           revision="refs/heads/o-mr1" />
+           revision="refs/heads/oreo-mr1" />
 
   <default revision="refs/tags/android-8.1.0_r1"
            remote="aosp"

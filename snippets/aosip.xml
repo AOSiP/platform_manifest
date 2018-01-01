@@ -3,10 +3,10 @@
 
   <!-- AOSiP -->
 
-  <project path="bionic" name="platform_bionic" remote="old" />
-  <project path="bootable/recovery" name="platform_bootable_recovery" remote="old" />
-  <project path="build/kati" name="platform_build_kati" remote="old" />
-  <project path="build/make" name="platform_build" remote="old" >
+  <project path="bionic" name="platform_bionic" remote="aosip" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosip" />
+  <project path="build/kati" name="platform_build_kati" remote="aosip" />
+  <project path="build/make" name="platform_build" remote="aosip" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -15,91 +15,96 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="platform_build_soong" remote="old" >
+  <project path="build/soong" name="platform_build_soong" remote="aosip" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="old" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="old" />
+  <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
 
-  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="aosip-o" />
-  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="aosip-o" />
-  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="aosip-o" />
-  <project path="external/connectivity" name="platform_external_connectivity" remote="old" />
-  <project path="external/bash" name="platform_external_bash" remote="aosip-o" />
-  <project path="external/ebtables" name="platform_external_ebtables" remote="aosip-o" />
-  <project path="external/exfat" name="platform_external_exfat" remote="aosip-o" />
-  <project path="external/fuse" name="platform_external_fuse" remote="aosip-o" />
-  <project path="external/htop" name="platform_external_htop" remote="aosip-o" />
-  <project path="external/json-c" name="platform_external_json-c" remote="aosip-o" />
-  <project path="external/libncurses" name="platform_external_libncurses" remote="aosip-o" />
-  <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp" remote="old" />
-  <project path="external/mksh" name="platform_external_mksh" remote="aosip-o" />
-  <project path="external/nano" name="platform_external_nano" remote="aosip-o" />
-  <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aosip-o" />
-  <project path="external/selinux" name="platform_external_selinux" remote="old" /> 
-  <project path="external/tinycompress" name="platform_external_tinycompress" remote="old" />
-  <project path="external/toybox" name="platform_external_toybox" remote="aosip-o" />
+  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="aosip" />
+  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="aosip" />
+  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="aosip" />
+  <project path="external/connectivity" name="platform_external_connectivity" remote="aosip" />
+  <project path="external/bash" name="platform_external_bash" remote="aosip" />
+  <project path="external/ebtables" name="platform_external_ebtables" remote="aosip" />
+  <project path="external/exfat" name="platform_external_exfat" remote="aosip" />
+  <project path="external/fuse" name="platform_external_fuse" remote="aosip" />
+  <project path="external/htop" name="platform_external_htop" remote="aosip" />
+  <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
+  <project path="external/libncurses" name="platform_external_libncurses" remote="aosip" />
+  <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp" remote="aosip" />
+  <project path="external/mksh" name="platform_external_mksh" remote="aosip" />
+  <project path="external/nano" name="platform_external_nano" remote="aosip" />
+  <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aosip" />
+  <project path="external/selinux" name="platform_external_selinux" remote="aosip" /> 
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
+  <project path="external/toybox" name="platform_external_toybox" remote="aosip" />
 
-  <project path="frameworks/av" name="platform_frameworks_av" remote="old" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="old" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="old" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="old" />
-  <project path="frameworks/support" name="platform_frameworks_support" remote="old" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" />
+  <project path="frameworks/support" name="platform_frameworks_support" remote="aosip" />
 
-  <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="old" >
+  <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip" >
     <copyfile dest="hardware/aosip/Android.bp" src="Android.bp"/>
   </project>
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="old" />
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="old" />
-  <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="old" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="platform_hardware_qcom_audio" remote="aosip-o" branch="oreo-mr1-caf-8952" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="aosip" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="aosip" />
+  <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="aosip" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="platform_hardware_qcom_audio" remote="aosip" revision="oreo-mr1-caf-8952" />
   <project path="hardware/qcom/audio-caf/msm8996" name="platform_hardware_qcom_audio" remote="aosip" revision="oreo-mr1-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="platform_hardware_qcom_audio" remote="old" branch="oreo-mr1-caf-msm8998" />
-  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="old" />
-  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" remote="old" branch="oreo-mr1-caf" />
-  <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" remote="old" />
-  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="old" />
-  <project path="hardware/qcom/display-caf/msm8952" name="platform_hardware_qcom_display" remote="aosip-o" branch="oreo-mr1-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="platform_hardware_qcom_audio" remote="aosip" revision="oreo-mr1-caf-8998" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="aosip" />
+  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" remote="aosip" revision="oreo-mr1-caf" />
+  <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" remote="aosip" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="aosip" />
+  <project path="hardware/qcom/display-caf/msm8952" name="platform_hardware_qcom_display" remote="aosip" revision="oreo-mr1-caf-8952" />
   <project path="hardware/qcom/display-caf/msm8996" name="platform_hardware_qcom_display" remote="aosip" revision="oreo-mr1-caf-8996" />
-  <project path="hardware/qcom/display-caf/msm8998" name="platform_hardware_qcom_display" remote="old" branch="oreo-mr1-caf-msm8998" />
-  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="old" />
-  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="old" />
-  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="old" />
-  <project path="hardware/qcom/media-caf/msm8952" name="platform_hardware_qcom_media" remote="aosip-o" branch="oreo-mr1-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8998" name="platform_hardware_qcom_display" remote="aosip" revision="oreo-mr1-caf-8998" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="aosip" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="aosip" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="aosip" />
+  <project path="hardware/qcom/media-caf/msm8952" name="platform_hardware_qcom_media" remote="aosip" revision="oreo-mr1-caf-8952" />
   <project path="hardware/qcom/media-caf/msm8996" name="platform_hardware_qcom_media" remote="aosip" revision="oreo-mr1-caf-8996" />
-  <project path="hardware/qcom/media-caf/msm8998" name="platform_hardware_qcom_media" remote="old" branch="oreo-mr1-caf-msm8998" />
-  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="old" />
-  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" remote="old" branch="oreo-mr1-caf" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="old" />
-  <project path="hardware/ril-caf" name="platform_hardware_ril" remote="old" revision="oreo-mr1-caf" />
+  <project path="hardware/qcom/media-caf/msm8998" name="platform_hardware_qcom_media" remote="aosip" revision="oreo-mr1-caf-8998" />
+  <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="aosip" />
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="aosip" />
+  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" remote="aosip" revision="oreo-mr1-caf" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
+  <project path="hardware/ril-caf" name="platform_hardware_ril" remote="aosip" revision="oreo-mr1-caf" />
 
-  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="old" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="aosip-o" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="aosip" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="aosip" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" />
   <project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" remote="aosip" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="old" />
-  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip-o" />
-  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="old" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="old" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="old" />
+  <project path="packages/apps/PacakgeInstaller" name="platform_packages_apps_PackageInstaller" remote="aosip" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="aosip" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" />
 
-  <project path="system/bt" name="platform_system_bt" remote="old" />
-  <project path="system/core" name="platform_system_core" remote="old" />
-  <project path="system/extras" name="platform_system_extras" remote="old" />
-  <project path="system/hwservicemanager" name="platform_system_hwservicemanager" remote="old" />
-  <project path="system/libhidl" name="platform_system_libhidl" remote="old" />
-  <project path="system/media" name="platform_system_media" remote="old" />
-  <project path="system/nfc" name="platform_system_nfc" remote="old" />
-  <project path="system/qcom" name="platform_system_qcom" remote="aosip-o" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="old" />
-  <project path="system/vold" name="platform_system_vold" remote="old" />
+  <project path="system/bt" name="platform_system_bt" remote="aosip" />
+  <project path="system/core" name="platform_system_core" remote="aosip" />
+  <project path="system/extras" name="platform_system_extras" remote="aosip" />
+  <project path="system/hwservicemanager" name="platform_system_hwservicemanager" remote="aosip" />
+  <project path="system/libhidl" name="platform_system_libhidl" remote="aosip" />
+  <project path="system/media" name="platform_system_media" remote="aosip" />
+  <project path="system/nfc" name="platform_system_nfc" remote="aosip" />
+  <project path="system/qcom" name="platform_system_qcom" remote="aosip" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
+  <project path="system/vold" name="platform_system_vold" remote="aosip" />
 
-  <project path="vendor/aosip" name="platform_vendor_aosip" remote="old" />
+  <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="old" >
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
 </manifest>
