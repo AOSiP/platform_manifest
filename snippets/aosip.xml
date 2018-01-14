@@ -116,4 +116,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
+
+  <project path="vendor/qcom/sdclang-4.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-4.0_linux-x86" remote="github" revision="oreo" />
+
 </manifest>
