@@ -21,6 +21,7 @@
   </project>
 
   <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="aosip" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
 
   <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="aosip" />
@@ -84,10 +85,14 @@
   <project path="hardware/ril-caf" name="platform_hardware_ril" remote="aosip" revision="oreo-mr1-caf" />
 
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="aosip" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="aosip" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="aosip" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="aosip" />
   <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="aosip" />
+  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="aosip" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="aosip" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" />
+  <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" remote="aosip" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" />
   <project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" remote="aosip" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="aosip" />
@@ -107,6 +112,7 @@
   <project path="system/nfc" name="platform_system_nfc" remote="aosip" />
   <project path="system/qcom" name="platform_system_qcom" remote="aosip" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
   <project path="system/vold" name="platform_system_vold" remote="aosip" />
 
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
