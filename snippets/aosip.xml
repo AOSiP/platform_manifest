@@ -125,4 +125,5 @@
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
+  <project path="vendor/qcom/opensource/rce-service" name="platform_vendor_qcom_opensource_rcs-service" remote="aosip" />
 </manifest>
