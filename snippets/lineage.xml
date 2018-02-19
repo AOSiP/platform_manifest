@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="los"
+           fetch="https://github.com/LineageOS" 
+           revision="refs/heads/lineage-15.1" />
+
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="los" />
+  <project path="external/bash" name="android_external_bash" remote="los" />
+  <project path="external/ebtables" name="android_external_ebtables" remote="los" />
+  <project path="external/exfat" name="android_external_exfat" remote="los" />
+  <project path="external/fuse" name="android_external_fuse" remote="los" />
+  <project path="external/htop" name="android_external_htop" remote="los" />
+  <project path="external/json-c" name="android_external_json-c" remote="los" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="los" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
+  <project path="external/mksh" name="android_external_mksh" remote="los" />
+  <project path="external/nano" name="android_external_nano" remote="los" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="los" />
+  <project path="external/toybox" name="android_external_toybox" remote="los" />
+
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="los" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="los" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="los" />
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="los" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" remote="los" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="los" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="los" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="los" revision="lineage-15.1-caf" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="los" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="los" />
+  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" remote="los" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="los" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="los" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="los" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="los" />
+  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" remote="los" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="los" />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="los" revision="lineage-15.1-caf" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="los" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" remote="los" revision="lineage-15.1-caf" />
+
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
+
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
+  <project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" remote="los" />
+
+</manifest>
