@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="AOSIP/aosip" fetch="ssh://localhost:29418" />
+  <default remote="aosip" sync-c="true" sync-j="4" sync-f="true" />
+  <project path="frameworks/base" name="AOSIP/platform_frameworks_base" remote="aosip" />
+  <project path="packages/apps/Dialer" name="AOSIP/platform_packages_apps_Dialer" remote="aosip" />
+  <project path="packages/apps/Messaging" name="AOSIP/platform_packages_apps_Messaging" remote="aosip" />
+  <project path="packages/apps/OwlsNest" name="AOSIP/platform_packages_apps_OwlsNest" remote="aosip" />
+  <project path="packages/apps/PackageInstaller" name="AOSIP/platform_packages_apps_PackageInstaller" remote="aosip" />
+  <project path="packages/apps/Settings" name="AOSIP/platform_packages_apps_Settings" remote="aosip" />
+  <project path="packages/services/Telephony" name="AOSIP/platform_packages_services_Telephony" remote="aosip" />
+  <project path="device/oppo/common" name="AOSIP-Devices/device_oppo_common" remote="aosip" />
+</manifest>
