@@ -51,7 +51,6 @@
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="aosip" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="aosip" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="aosip" />
-  <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="aosip" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="aosip" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
 
