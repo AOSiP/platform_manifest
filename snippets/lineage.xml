@@ -67,4 +67,6 @@
 
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
 
+  <project path="system/extras/su" name="android_system_extras_su" remote="los" />
+
 </manifest>
