@@ -16,7 +16,7 @@
            fetch="https://github.com/AOSiP-Devices" 
            revision="refs/heads/oreo-mr1" />
 
-  <default revision="refs/tags/android-8.1.0_r20"
+  <default revision="refs/tags/android-8.1.0_r26"
            remote="aosp"
            sync-j="8"
            sync-c="true" />
