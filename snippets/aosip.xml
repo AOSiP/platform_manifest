@@ -4,6 +4,7 @@
   <!-- AOSiP -->
 
   <project path="updater" name="updater" remote="aosip" revision="master" />
+  <project path="manifest" name="platform_manifest" remote="aosip" />
 
   <project path="bionic" name="platform_bionic" remote="aosip" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosip" />
