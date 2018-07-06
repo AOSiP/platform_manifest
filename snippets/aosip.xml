@@ -27,9 +27,9 @@
 
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip-old" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="aosip-old" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="aosip" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip-old" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="aosip" />
 
   <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip" >
@@ -52,8 +52,6 @@
   <project path="system/core" name="platform_system_core" remote="aosip" />
   <project path="system/extras" name="platform_system_extras" remote="aosip" />
   <project path="system/libhidl" name="platform_system_libhidl" remote="aosip" />
-  <project path="system/media" name="platform_system_media" remote="aosip" />
-  <project path="system/netd" name="platform_system_netd" remote="aosip" />
   <project path="system/nfc" name="platform_system_nfc" remote="aosip" />
   <project path="system/qcom" name="platform_system_qcom" remote="aosip" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
