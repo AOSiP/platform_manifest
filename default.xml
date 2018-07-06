@@ -12,6 +12,10 @@
            fetch="https://github.com/AOSiP"
            revision="refs/heads/oreo-mr1" />
 
+  <remote  name="aosip-old"
+           fetch="https://github.com/AOSiP-old"
+           revision="refs/heads/oreo-mr1-bare" />
+
   <remote  name="devices"
            fetch="https://github.com/AOSiP-Devices" 
            revision="refs/heads/oreo-mr1" />
