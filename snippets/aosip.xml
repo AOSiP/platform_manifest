@@ -40,6 +40,7 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="aosip" />
 
   <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" remote="aosip" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip-old" />
 
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" />
