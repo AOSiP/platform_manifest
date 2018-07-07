@@ -26,10 +26,10 @@
   <project path="external/selinux" name="platform_external_selinux" remote="aosip" /> 
 
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="aosip-old" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="aosip-old" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="aosip-bare" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="aosip-bare" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="aosip" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip-old" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip-bare" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="aosip" />
 
   <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip" >
@@ -40,12 +40,12 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="aosip" />
 
   <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" remote="aosip" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip-old" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip-bare" />
 
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="aosip" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip-old" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip-bare" />
 
   <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" clone-depth="1" remote="aosip" />
 
@@ -58,7 +58,7 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
   <project path="system/vold" name="platform_system_vold" remote="aosip" />
 
-  <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip-old" />
+  <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip-bare" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" />
