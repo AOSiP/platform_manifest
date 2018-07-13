@@ -4,7 +4,7 @@
   <!-- AOSiP -->
 
   <project path="bionic" name="platform_bionic" remote="aosip" />
-  <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosip" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosip-bare" />
   <project path="build/kati" name="platform_build_kati" remote="aosip" />
   <project path="build/make" name="platform_build" remote="aosip" >
     <copyfile src="core/root.mk" dest="Makefile" />
