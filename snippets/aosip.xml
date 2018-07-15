@@ -58,6 +58,7 @@
   <project path="system/bt" name="platform_system_bt" remote="aosip" />
   <project path="system/core" name="platform_system_core" remote="aosip" />
   <project path="system/extras" name="platform_system_extras" remote="aosip" />
+  <project path="system/hwservicemanager" name="platform_system_hwservicemanager" remote="aosip" />
   <project path="system/libhidl" name="platform_system_libhidl" remote="aosip" />
   <project path="system/nfc" name="platform_system_nfc" remote="aosip" />
   <project path="system/qcom" name="platform_system_qcom" remote="aosip" />
