@@ -22,7 +22,7 @@
 
   <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip" />
   <project path="device/qcom/common" name="device_qcom_common" remote="aosip" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip-bare" />
 
   <project path="external/selinux" name="platform_external_selinux" remote="aosip" /> 
 
