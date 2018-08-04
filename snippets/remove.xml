@@ -41,6 +41,7 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
   <remove-project name="kernel/tests" />
+  <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
@@ -48,8 +49,10 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/development" />
   <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/libdrm" />
   <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
@@ -141,6 +144,7 @@
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/nfc" />
+  <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
