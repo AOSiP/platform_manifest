@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- AOSiP -->
+
+  <project path="manifest" name="platform_manifest" remote="aosip" />
+
+  <project path="bionic" name="platform_bionic" remote="aosip" />
+  <project path="build/make" name="platform_build" remote="aosip" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" remote="aosip" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip" revision="oreo-mr1" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="aosip" revision="oreo-mr1" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" revision="oreo-mr1" />
+
+  <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
+
+  <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip" revision="oreo-mr1" >
+    <copyfile dest="hardware/aosip/Android.bp" src="Android.bp"/>
+  </project>
+
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" />
+
+  <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" revision="oreo-mr1" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" revision="oreo-mr1" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" revision="oreo-mr1" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" revision="oreo-mr1" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
+  <project path="vendor/qcom/opensource/rcs-service" name="platform_vendor_qcom_opensource_rcs-service" remote="aosip" revision="oreo-mr1" />
+</manifest>
