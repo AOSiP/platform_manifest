@@ -2,11 +2,24 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="aosip"
+           fetch="https://github.com/AOSiP"
+           revision="refs/heads/pie" />
+
+  <remote  name="devices"
+           fetch="https://github.com/AOSiP-Devices" 
+           revision="refs/heads/pie" />
+
   <default revision="refs/tags/android-9.0.0_r3"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8"
+           sync-c="true" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -697,5 +710,9 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <include name="snippets/remove.xml" />
+  <include name="snippets/aosip.xml" />
+  <include name="snippets/lineage.xml" />
 
 </manifest>
