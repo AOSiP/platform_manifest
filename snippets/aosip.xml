@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="aosip"
+           fetch="https://github.com/AOSiP"
+           revision="refs/heads/pie" />
+
+  <remote  name="devices"
+           fetch="https://github.com/AOSiP-Devices"
+           revision="refs/heads/pie" />
+
+  <!-- AOSiP -->
+  <project path="manifest" name="platform_manifest" remote="aosip" />
+
+  <project path="bionic" name="platform_bionic" remote="aosip" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosip" />
+  <project path="build/make" name="platform_build" remote="aosip" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" remote="aosip" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
+
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" />
+
+  <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" revision="pie" />
+</manifest>
+
