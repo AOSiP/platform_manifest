@@ -13,7 +13,8 @@
            revision="refs/heads/pie" />
 
   <!-- AOSiP -->
-
+  <!-- General -->
+  <project path="art" name="platform_art" remote="aosip" />
   <project path="bionic" name="platform_bionic" remote="aosip" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosip" />
   <project path="build/make" name="platform_build" remote="aosip" >
@@ -30,10 +31,31 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="manifest" name="platform_manifest" remote="aosip" />
 
+  <!-- External -->
+  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="aosip" />
+  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="aosip" />
+  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="aosip" />
+  <project path="external/brctl" name="platform_external_brctl" remote="aosip" />
+  <project path="external/connectivity" name="platform_external_connectivity" remote="aosip" />
+  <project path="external/ebtables" name="platform_external_ebtables" remote="aosip" />
+  <project path="external/exfat" name="platform_external_exfat" remote="aosip" />
+  <project path="external/fuse" name="platform_external_fuse" remote="aosip" />
+  <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
+  <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp" remote="aosip" />
+  <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aosip" />
+  <project path="external/selinux" name="platform_external_selinux" remote="aosip" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
+
+  <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" />
+  <project path="frameworks/support" name="platform_frameworks_support" remote="aosip" />
 
+  <!-- Hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="aosip" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="aosip" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="aosip" />
@@ -47,10 +69,24 @@
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="aosip" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
 
-  <project path="manifest" name="platform_manifest" remote="aosip" />
-
+  <!-- Packages -->
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="aosip" />
 
+  <project path="system/bt" name="platform_system_bt" remote="aosip" />
+  <project path="system/core" name="platform_system_core-1" remote="aosip" />
+  <project path="system/extras" name="platform_system_extras" remote="aosip" />
+  <project path="system/libhidl" name="platform_system_libhidl" remote="aosip" />
+  <project path="system/nfc" name="platform_system_nfc" remote="aosip" />
+  <project path="system/qcom" name="platform_system_qcom" remote="aosip" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
+  <project path="system/vold" name="platform_system_vold" remote="aosip" />
+
+  <!-- Vendor -->
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" revision="oreo-mr1" />
