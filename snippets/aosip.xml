@@ -92,6 +92,7 @@
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="aosip" />
   <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" remote="aosip" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" remote="aosip" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="aosip" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="aosip" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="aosip" />
@@ -124,11 +125,11 @@
   <!-- Vendor -->
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" revision="oreo-mr1" />
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" revision="oreo-mr1" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" revision="oreo-mr1" >
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
-  <project path="vendor/qcom/opensource/rcs-service" name="platform_vendor_qcom_opensource_rcs-service" remote="aosip" revision="oreo-mr1" />
+  <project path="vendor/qcom/opensource/rcs-service" name="platform_vendor_qcom_opensource_rcs-service" remote="aosip" />
 </manifest>
 
