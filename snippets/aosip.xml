@@ -35,10 +35,10 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <!-- Device
+  <!-- Device -->
   <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip" />
   <project path="device/qcom/common" name="device_qcom_common" remote="aosip" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" / -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
 
   <!-- External -->
   <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="aosip" />
@@ -66,7 +66,7 @@
   <project path="frameworks/support" name="platform_frameworks_support" remote="aosip" />
 
   <!-- Hardware -->
-  <!--<project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" />-->
+  <<project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" />
   <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="aosip" />
   <project path="hardware/broadcom/wlan" name="platform_hardware_broadcom_wlan" remote="aosip" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="aosip" />
