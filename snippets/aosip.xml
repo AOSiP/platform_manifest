@@ -66,6 +66,7 @@
   <project path="frameworks/support" name="platform_frameworks_support" remote="aosip" />
 
   <!-- Hardware -->
+  <!--<project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" />-->
   <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="aosip" />
   <project path="hardware/broadcom/wlan" name="platform_hardware_broadcom_wlan" remote="aosip" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="aosip" />
@@ -120,6 +121,7 @@
   <project path="system/nfc" name="platform_system_nfc" remote="aosip" />
   <project path="system/qcom" name="platform_system_qcom" remote="aosip" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
+  <project path="system/tools/hidl" name="platform_system_tools_hidl" remote="aosip" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
   <project path="system/vold" name="platform_system_vold" remote="aosip" />
 
@@ -128,9 +130,7 @@
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" >
-    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
-  </project>
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" />
   <project path="vendor/qcom/opensource/rcs-service" name="platform_vendor_qcom_opensource_rcs-service" remote="aosip" />
 </manifest>
 
