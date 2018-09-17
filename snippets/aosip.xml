@@ -39,6 +39,7 @@
   <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip" />
   <project path="device/qcom/common" name="device_qcom_common" remote="aosip" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="aosip" revision="pie-legacy" />
 
   <!-- External -->
   <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="aosip" />
