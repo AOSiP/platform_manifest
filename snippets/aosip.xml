@@ -4,6 +4,9 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
   <remote  name="aosip"
            fetch="https://github.com/AOSiP"
            revision="refs/heads/pie" />
