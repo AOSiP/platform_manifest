@@ -49,7 +49,6 @@
   <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="aosip" />
   <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="aosip" />
   <project path="external/connectivity" name="platform_external_connectivity" remote="aosip" />
-  <project path="external/DUI" name="platform_external_DUI" remote="aosip" />
   <project path="external/exfat" name="platform_external_exfat" remote="aosip" />
   <project path="external/fuse" name="platform_external_fuse" remote="aosip" />
   <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
