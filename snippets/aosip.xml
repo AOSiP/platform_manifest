@@ -53,6 +53,7 @@
   <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="aosip" />
   <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="aosip" />
   <project path="external/connectivity" name="platform_external_connectivity" remote="aosip" />
+  <project path="external/DUI" name="platform_external_DUI" remote="aosip" />
   <project path="external/exfat" name="platform_external_exfat" remote="aosip" />
   <project path="external/fuse" name="platform_external_fuse" remote="aosip" />
   <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
@@ -111,6 +112,8 @@
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="aosip" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="bare" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" clone-depth="1" remote="aosip" />
