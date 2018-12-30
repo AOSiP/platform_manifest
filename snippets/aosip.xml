@@ -109,6 +109,7 @@
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="aosip" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="bare" />
+  <project path="packages/apps/WeatherClient" name="platform_packages_apps_WeatherClient" remote="aosip" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="aosip" />
