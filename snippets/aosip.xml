@@ -44,20 +44,6 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="aosip" revision="pie-legacy" />
 
-  <!-- External -->
-  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="aosip" />
-  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="aosip" />
-  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="aosip" />
-  <project path="external/connectivity" name="platform_external_connectivity" remote="aosip" />
-  <project path="external/exfat" name="platform_external_exfat" remote="aosip" />
-  <project path="external/fuse" name="platform_external_fuse" remote="aosip" />
-  <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
-  <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp" remote="aosip" />
-  <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aosip" />
-  <project path="external/perfetto" name="platform_external_perfetto" remote="aosip" />
-  <project path="external/selinux" name="platform_external_selinux" remote="aosip" />
-  <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
-
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
@@ -69,33 +55,10 @@
 
   <!-- Hardware -->
   <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip" />
-  <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="aosip" />
-  <project path="hardware/broadcom/wlan" name="platform_hardware_broadcom_wlan" remote="aosip" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="aosip" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="aosip" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="aosip" />
   <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="aosip" />
-  <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="aosip" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="platform_hardware_qcom_audio" remote="aosip" revision="pie-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="platform_hardware_qcom_audio" remote="aosip" revision="pie-caf-8998" />
-  <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" remote="aosip" />
-  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="aosip" />
-  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" remote="aosip" revision="pie-caf" />
-  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="aosip" />
-  <project path="hardware/qcom/display-caf/msm8996" name="platform_hardware_qcom_display" remote="aosip" revision="pie-caf-8996" />
-  <project path="hardware/qcom/display-caf/msm8998" name="platform_hardware_qcom_display" remote="aosip" revision="pie-caf-8998" />
-  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="aosip" />
-  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="aosip" />
-  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="aosip" />
-  <project path="hardware/qcom/media-caf/msm8996" name="platform_hardware_qcom_media" remote="aosip" revision="pie-caf-8996" />
-  <project path="hardware/qcom/media-caf/msm8998" name="platform_hardware_qcom_media" remote="aosip" revision="pie-caf-8998" />
-  <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="aosip" />
-  <project path="hardware/qcom/thermal" name="platform_hardware_qcom_thermal" remote="aosip" />
-  <project path="hardware/qcom/vr" name="platform_hardware_qcom_vr" remote="aosip" />
-  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="aosip" />
-  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" remote="aosip" revision="pie-caf" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
-  <project path="hardware/ril-caf" name="platform_hardware_ril" remote="aosip" revision="pie-caf" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="aosip" />
@@ -140,10 +103,5 @@
   <!-- Vendor -->
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
-  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="aosip" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" />
-  <project path="vendor/qcom/opensource/rcs-service" name="platform_vendor_qcom_opensource_rcs-service" remote="aosip" />
 </manifest>
 
