@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4f268270_8ee8365c",
+        "filename": "snippets/aosip.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1000075
+      },
+      "writtenOn": "2019-01-01T17:49:58Z",
+      "side": 1,
+      "message": "do we really want Gallery2 though?",
+      "revId": "b32967c2d39cbf3435f45dcbc9cc31b9cecfe633",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": true
+    }
+  ]
+}
