@@ -21,7 +21,6 @@
   <remove-project name="device/generic/uml" />
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
-  <remove-project name="device/generic/uml" />
   <remove-project name="device/google/accessory/arduino" />
   <remove-project name="device/google/accessory/demokit" />
   <remove-project name="device/google/atv" />
@@ -90,11 +89,9 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/nxp/nfc" />
-  <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/camera" />
-  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
@@ -106,13 +103,6 @@
   <remove-project name="platform/hardware/qcom/msm8994" />
   <remove-project name="platform/hardware/qcom/msm8996" />
   <remove-project name="platform/hardware/qcom/msm8998" />
-  <remove-project name="platform/hardware/qcom/sdm845/bt"/>
-  <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr"/>
-  <remove-project name="platform/hardware/qcom/sdm845/display"/>
-  <remove-project name="platform/hardware/qcom/sdm845/gps"/>
-  <remove-project name="platform/hardware/qcom/sdm845/media"/>
-  <remove-project name="platform/hardware/qcom/sdm845/thermal"/>
-  <remove-project name="platform/hardware/qcom/sdm845/vr"/>
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
