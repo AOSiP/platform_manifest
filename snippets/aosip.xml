@@ -84,6 +84,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" />
   <project path="packages/apps/SmartNav" name="platform_packages_apps_SmartNav" remote="aosip" />
   <project path="packages/apps/SmartNavSettings" name="platform_packages_apps_SmartNavSettings" remote="aosip" />
+  <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="aosip" />
   <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="aosip" />
   <project path="packages/apps/WeatherClient" name="platform_packages_apps_WeatherClient" remote="aosip" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" />
