@@ -45,6 +45,7 @@
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="aosip" revision="pie-legacy" />
 
   <!-- External -->
+  <project path="external/google" name="platform_external_google" remote="aosip" />
   <project path="external/perfetto" name="platform_external_perfetto" remote="aosip" />
   <project path="external/selinux" name="platform_external_selinux" remote="aosip" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
