@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote name="aosip" fetch="ssh://git@github.com" revision="pie" />
+ <default remote="aosip" sync-c="true" sync-j="8" sync-f="true" />
+ <project path="crowdin" name="AOSIP/crowdin" revision="master" />
+ <project path="frameworks/base" name="AOSIP/platform_frameworks_base" />
+ <project path="manifest" name="AOSIP/platform_manifest" />
+ <project path="packages/apps/DeskClock" name="AOSIP/platform_packages_apps_DeskClock" />
+ <project path="packages/apps/Dialer" name="AOSIP/platform_packages_apps_Dialer" />
+ <project path="packages/apps/Launcher3" name="AOSIP/platform_packages_apps_Launcher3" />
+ <project path="packages/apps/Messaging" name="AOSIP/platform_packages_apps_Messaging" />
+ <project path="packages/apps/OwlsNest" name="AOSIP/platform_packages_apps_OwlsNest" />
+ <project path="packages/apps/Settings" name="AOSIP/platform_packages_apps_Settings" />
+ <project path="packages/providers/DownloadProvider" name="AOSIP/platform_packages_providers_DownloadProvider" />
+ <project path="device/oneplus/sdm845-common" name="AOSIP-Devices/device_oneplus_sdm845-common" />
+</manifest>
