@@ -45,6 +45,9 @@
 
   <!-- External -->
   <project path="external/busybox" name="platform_external_busybox" remote="aosip" />
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aosip" />
+  <project path="external/exfat" name="platform_external_exfat" remote="aosip" />
+  <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="aosip" />
   <project path="external/google" name="platform_external_google" remote="aosip" />
   <project path="external/perfetto" name="platform_external_perfetto" remote="aosip" />
   <project path="external/proguard" name="platform_external_proguard" remote="aosip" />
