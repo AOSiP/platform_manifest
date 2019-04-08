@@ -7,29 +7,17 @@
   <project path="development" name="android_development" remote="los" />
 
   <!-- External -->
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
-  <project path="external/bash" name="android_external_bash" remote="los" />
-  <project path="external/connectivity" name="android_external_connectivity" remote="los" />
   <project path="external/elfutils" name="android_external_elfutils" remote="los" />
-  <project path="external/htop" name="android_external_htop" remote="los" />
   <project path="external/icu" name="android_external_icu" remote="los" />
-  <project path="external/json-c" name="android_external_json-c" remote="los" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="los" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="los" />
-  <project path="external/mksh" name="android_external_mksh" remote="los" />
-  <project path="external/nano" name="android_external_nano" remote="los" />
   <project path="external/openssh" name="android_external_openssh" remote="los" />
   <project path="external/p7zip" name="android_external_p7zip" remote="los" />
   <project path="external/pigz" name="android_external_pigz" remote="los" />
   <project path="external/rsync" name="android_external_rsync" remote="los" />
-  <project path="external/toybox" name="android_external_toybox" remote="los" />
   <project path="external/unrar" name="android_external_unrar" remote="los" />
   <project path="external/vim" name="android_external_vim" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />
-  <project path="external/zlib" name="android_external_zlib" remote="los" />
 
   <!-- Hardware -->
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
