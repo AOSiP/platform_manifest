@@ -7,6 +7,7 @@
   <project path="development" name="android_development" remote="los" />
 
   <!-- External -->
+  <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" remote="los" />
   <project path="external/elfutils" name="android_external_elfutils" remote="los" />
   <project path="external/icu" name="android_external_icu" remote="los" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
