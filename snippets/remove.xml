@@ -56,6 +56,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/development" />
   <remove-project name="platform/external/ARMComputeLibrary" />
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/gptfdisk" />
