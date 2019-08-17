@@ -65,6 +65,10 @@
   <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" remote="los" revision="lineage-16.0-caf-845" />
   <project path="hardware/qcom/media-caf/sm8150" name="android_hardware_qcom_media" remote="los" revision="lineage-16.0-caf-8150" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="los" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="android_hardware_qcom_sdm845_data_ipacfg-mgr" remote="los" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
+  </project>
   <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="los" />
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="los" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="los" />
