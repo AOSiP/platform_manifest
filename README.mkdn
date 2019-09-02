@@ -14,7 +14,7 @@ repo init -u git://github.com/AOSiP/platform_manifest.git -b pie
 ```
 Then to sync up:
 ```bash
-repo sync -f --force-sync --no-tags --no-clone-bundle
+repo sync --force-sync --no-tags --no-clone-bundle
 ```
 
 Building the source
