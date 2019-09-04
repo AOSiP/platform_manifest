@@ -1,0 +1,108 @@
+AOSiP
+===========
+
+Getting Started
+---------------
+
+To get started with Android, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the AOSiP trees, use a command like this:
+
+```bash
+repo init -u git://github.com/AOSiP/platform_manifest.git -b ten
+```
+Then to sync up:
+```bash
+repo sync --force-sync --no-tags --no-clone-bundle
+```
+
+Building the source
+---------------
+
+The source at AOSiP is well configured for building.
+
+```bash
+source build/envsetup.sh
+lunch aosip_device-userdebug
+time mka kronic
+```
+
+## Submitting Patches ##
+
+You can submit your patches to AOSiP just by registering at "https://review.aosiprom.com"
+
+Open up terminal to create your ssh keys required for submitting patches to gerrit and type in:
+
+```bash
+ssh-keygen
+```
+
+In our gerrit click on your "Avatar" on the top right, then on "Settings".
+
+While in 'Settings' Click on "SSH Public Keys" on the left hand side and then on "Add Key".
+
+Then copy and paste the contents of ~/.ssh/id_rsa.pub to "Gerrit SSH Public Keys".
+
+You can send patches to us by using these commands in terminal:
+
+cd PROJECT - i.e
+```bash
+cd packages/apps/OwlsNest
+```
+Make edits that you want to see .....
+```bash
+git add .
+git commit -a
+```
+Type out a commit message that makes sense for the proposed change
+
+Ctrl O, then Ctrl X to save and exit
+
+```bash
+git push ssh://USERNAME@review.aosiprom.com:29418/PROJECT HEAD:refs/for/BRANCH
+```
+BRANCH - i.e ten
+PROJECT - i.e AOSIP/platform_packages_apps_OwlsNest
+USERNAME - i.e Shreesha
+
+If you're feeling extra lazy, you can submit streamline the process.  First you need to tell git about your gerrit username:
+```bash
+git config --global review.review.aosiprom.com.username <Your username registered at AOSiP gerrit>
+```
+
+Now you can run these commands to push changes to gerrit. Note: the first command only needs run once from each project.
+```bash
+gerrit
+git push gerrit HEAD:refs/for/BRANCH
+```
+
+If you are going to make extra additions, just repeat steps (don't start a new patch), but instead of git commit -m
+use git commit --amend. Gerrit will recognize it as a new patchset.
+
+For more information on how to push to a gerrit, please read the
+following: [Link](https://wiki.mahara.org/wiki/Developer_Area/Contributing_Code)
+
+Also to make this even easier, you can use a universal gerrit script provided by PAC:
+[Link](https://forum.xda-developers.com/showthread.php?t=2530388)
+
+## Maintaining Authorship ##
+Please make sure if you submit a patch/fix from another ROM that you maintain authorship.
+This is very important to not only us but to the entire open source community. It's what keeps it going and encourages more developers to 
+contribute their work.
+
+If you manually cherry pick a patch/fix please add the original author prior to pushing to our gerrit.
+This task is very easy and is usually done after you commit a patch/fix locally.
+
+i.e - Once you type in "git commit -a" the commit message and you have saved it, type in the following:
+
+```bash
+git commit --amend --author "Author <email@address.com>"
+```
+
+So it should look like this once you get all author's information:
+
+```bash
+git commit --amend --author "Shreesha <shreeshu10@gmail.com>"
+```
+
