@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="aosip"
+           fetch="https://github.com/AOSiP"
+           revision="refs/heads/ten" />
+
+  <remote  name="devices"
+           fetch="https://github.com/AOSiP-Devices"
+           revision="refs/heads/ten" />
+
+  <!-- AOSiP -->
+  <!-- General -->
+  <project path="art" name="platform_art" remote="aosip" />
+  <project path="bionic" name="platform_bionic" remote="aosip" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosip" />
+  <project path="manifest" name="platform_manifest" remote="aosip" />
+
+  <!-- Build -->
+  <project path="build/make" name="platform_build" remote="aosip" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" remote="aosip" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- External -->
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aosip" />
+  <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="aosip" />
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="aosip" />
+  <project path="external/mksh" name="platform_external_mksh" remote="aosip" />
+  <project path="external/one-true-awk" name="platform_external_one-true-awk" remote="aosip" />
+  <project path="external/perfetto" name="platform_external_perfetto" remote="aosip" />
+  <project path="external/proguard" name="platform_external_proguard" remote="aosip" />
+  <project path="external/selinux" name="platform_external_selinux" remote="aosip" />
+  <project path="external/skia" name="platform_external_skia" remote="aosip" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
+  <project path="external/toybox" name="platform_external_toybox" remote="aosip" />
+  <project path="external/zlib" name="platform_external_zlib" remote="aosip" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
+  <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="aosip" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="aosip" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="aosip" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" />
+
+  <!-- Hardware -->
+  <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="aosip" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="aosip" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="aosip" />
+  <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="aosip" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="platform_hardware_qcom_data_ipacfg-mgr" remote="aosip" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="aosip" />
+  <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" remote="aosip" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" remote="aosip" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="aosip" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="aosip" />
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="aosip" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="aosip" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" />
+  <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="aosip" />
+  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="aosip" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" />
+  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="aosip" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="aosip" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" />
+
+  <!-- System -->
+  <project path="system/bt" name="platform_system_bt" remote="aosip" />
+  <project path="system/core" name="platform_system_core" remote="aosip" />
+  <project path="system/extras" name="platform_system_extras" remote="aosip" />
+  <project path="system/tools/hidl" name="platform_system_tools_hidl" remote="aosip" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
+
+  <!-- Vendor -->
+  <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
+  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="aosip" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" />
+</manifest>
+
