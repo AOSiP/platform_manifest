@@ -58,6 +58,8 @@
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="aosip" />
   <project path="external/htop" name="platform_external_htop" remote="aosip" />
   <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
+  <project path="external/libcups" name="platform_external_libcups" remote="aosip" />
+  <project path="external/libhevc" name="platform_external_libhevc" remote="aosip" />
   <project path="external/libncurses" name="platform_external_libncurses" remote="aosip" />
   <project path="external/mksh" name="platform_external_mksh" remote="aosip" />
   <project path="external/nano" name="platform_external_nano" remote="aosip" />

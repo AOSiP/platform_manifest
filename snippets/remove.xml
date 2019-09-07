@@ -57,6 +57,8 @@
   <remove-project name="platform/external/google-api-services-storage" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/libcups" />
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/one-true-awk" />
