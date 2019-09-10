@@ -771,5 +771,6 @@
 
   <include name="snippets/remove.xml" />
   <include name="snippets/aosip.xml" />
+  <include name="snippets/lineage.xml" />
 
 </manifest>
