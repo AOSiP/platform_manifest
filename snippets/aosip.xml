@@ -88,6 +88,9 @@
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/tools-aosip" name="platform_prebuilts_tools-aosip" remote="aosip" />
+
   <!-- System -->
   <project path="system/bt" name="platform_system_bt" remote="aosip" />
   <project path="system/core" name="platform_system_core" remote="aosip" />
