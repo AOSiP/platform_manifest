@@ -37,6 +37,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Device -->
+  <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip" />
+
   <!-- External -->
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aosip" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="aosip" />
