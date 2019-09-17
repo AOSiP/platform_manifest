@@ -72,6 +72,7 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="aosip" />
   <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="aosip" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform_hardware_qcom_data_ipacfg-mgr" remote="aosip" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="aosip" />
@@ -100,6 +101,7 @@
   <project path="system/bt" name="platform_system_bt" remote="aosip" />
   <project path="system/core" name="platform_system_core" remote="aosip" />
   <project path="system/extras" name="platform_system_extras" remote="aosip" />
+  <project path="system/netd" name="platform_system_netd" remote="aosip" />
   <project path="system/tools/hidl" name="platform_system_tools_hidl" remote="aosip" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
