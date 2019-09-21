@@ -106,6 +106,7 @@
   <project path="system/tools/hidl" name="platform_system_tools_hidl" remote="aosip" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
+  <project path="system/vold" name="platform_system_vold" remote="aosip" />
 
   <!-- Vendor -->
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
