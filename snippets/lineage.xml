@@ -8,6 +8,8 @@
   <!-- Device -->
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="lineage" />
 
+  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="lineage"  />
+
   <!-- Packages -->
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="lineage" />
 
@@ -24,6 +26,7 @@
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" />
   <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage" />
   <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
 
 </manifest>
 
