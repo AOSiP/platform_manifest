@@ -46,7 +46,6 @@
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aosip" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="aosip" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="aosip" />
-  <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
   <project path="external/mksh" name="platform_external_mksh" remote="aosip" />
   <project path="external/one-true-awk" name="platform_external_one-true-awk" remote="aosip" />
   <project path="external/perfetto" name="platform_external_perfetto" remote="aosip" />
@@ -113,10 +112,6 @@
   <!-- Vendor -->
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
-  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="aosip" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aosip" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" />
 </manifest>
 
