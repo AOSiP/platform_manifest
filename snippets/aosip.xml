@@ -40,6 +40,7 @@
   <!-- Device -->
   <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="aosip" revision="ten-legacy-um" />
 
   <!-- External -->
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aosip" />
