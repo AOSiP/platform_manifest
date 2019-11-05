@@ -7,17 +7,22 @@
   <project path="development" name="android_development" remote="los" />
 
   <!-- External -->
+  <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="los" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" remote="los" />
   <project path="external/elfutils" name="android_external_elfutils" remote="los" />
   <project path="external/icu" name="android_external_icu" remote="los" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="los" />
+  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="los" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="los" />
   <project path="external/openssh" name="android_external_openssh" remote="los" />
   <project path="external/p7zip" name="android_external_p7zip" remote="los" />
   <project path="external/pigz" name="android_external_pigz" remote="los" />
   <project path="external/rsync" name="android_external_rsync" remote="los" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="los" />
   <project path="external/unrar" name="android_external_unrar" remote="los" />
   <project path="external/vim" name="android_external_vim" remote="los" />
+  <project path="external/v8" name="android_external_v8" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />
 
   <!-- Hardware -->
@@ -78,6 +83,9 @@
 
   <!-- Packages -->
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="los" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="los" />
+  <project path="packages/providers/TvProvider" name="android_packages_providers_TvProvider" remote="los" />
 
   <!-- System -->
   <project path="system/timezone" name="android_system_timezone" remote="los" />
