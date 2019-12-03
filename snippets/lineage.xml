@@ -11,6 +11,7 @@
   <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" remote="los" />
   <project path="external/elfutils" name="android_external_elfutils" remote="los" />
   <project path="external/icu" name="android_external_icu" remote="los" />
+  <project path="external/ImageMagick" name="android_external_ImageMagick" remote="los" />
   <project path="external/libcxx" name="android_external_libcxx" remote="los" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="los" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
@@ -86,9 +87,11 @@
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="los" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="los" />
   <project path="packages/providers/TvProvider" name="android_packages_providers_TvProvider" remote="los" />
+  <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" remote="los" />
 
   <!-- System -->
   <project path="system/timezone" name="android_system_timezone" remote="los" />
+  <project path="system/security" name="android_system_security" remote="los" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
 
   <!-- Vendor -->
