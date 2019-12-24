@@ -107,9 +107,6 @@
   <!-- Platform -->
   <project path="platform_testing" name="platform_platform_testing" remote="aosip" />
 
-  <!-- Prebuilts -->
-  <project path="prebuilts/tools-aosip" name="platform_prebuilts_tools-aosip" remote="aosip" />
-
   <!-- System -->
   <project path="system/bt" name="platform_system_bt" remote="aosip" />
   <project path="system/core" name="platform_system_core" remote="aosip" />
