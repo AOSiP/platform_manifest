@@ -120,5 +120,7 @@
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
+
+  <project name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="gitlab" revision="q10x" />
 </manifest>
 
