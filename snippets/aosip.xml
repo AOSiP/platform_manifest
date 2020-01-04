@@ -108,6 +108,9 @@
   <!-- Platform -->
   <project path="platform_testing" name="platform_platform_testing" remote="aosip" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/r8" name="platform_prebuilts_r8" remote="aosip" clone-depth="1" />
+
   <!-- System -->
   <project path="system/bt" name="platform_system_bt" remote="aosip" />
   <project path="system/core" name="platform_system_core" remote="aosip" />
