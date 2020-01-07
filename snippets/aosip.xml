@@ -124,5 +124,6 @@
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
+  <project path="vendor/google_psu" name="Pixel3ROM/platform/vendor/google_psu" remote="gitlab" revision="android10" />
 </manifest>
 
