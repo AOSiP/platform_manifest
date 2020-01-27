@@ -126,5 +126,13 @@
   <project path="vendor/overlay" name="platform_vendor_overlay" remote="aosip" />
   <project path="vendor/prebuilts" name="platform_vendor_prebuilts" remote="aosip" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
+
+  <!-- AOSP HALs -->
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="Pixel3ROM/platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="generic_fs,vendor,qcom_sdm845" remote="gitlab" revision="android10-custom" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="Pixel3ROM/platform/hardware/qcom/sdm845/display" groups="generic_fs,qcom_sdm845" remote="gitlab" />
+  <project path="hardware/qcom/sdm845/media" name="Pixel3ROM/platform/hardware/qcom/sdm845/media" groups="generic_fs,qcom_sdm845" remote="gitlab" />
 </manifest>
 
