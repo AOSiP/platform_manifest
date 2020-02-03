@@ -30,7 +30,7 @@ time mka kronic
 
 ## Submitting Patches ##
 
-You can submit your patches to AOSiP just by registering at "https://review.aosiprom.com"
+You can submit your patches to AOSiP just by registering at "https://review.aosip.dev"
 
 Open up terminal to create your ssh keys required for submitting patches to gerrit and type in:
 
@@ -60,7 +60,7 @@ Type out a commit message that makes sense for the proposed change
 Ctrl O, then Ctrl X to save and exit
 
 ```bash
-git push ssh://USERNAME@review.aosiprom.com:29418/PROJECT HEAD:refs/for/BRANCH
+git push ssh://USERNAME@review.aosip.dev:29418/PROJECT HEAD:refs/for/BRANCH
 ```
 BRANCH - i.e ten
 PROJECT - i.e AOSIP/platform_packages_apps_OwlsNest
@@ -68,7 +68,7 @@ USERNAME - i.e Shreesha
 
 If you're feeling extra lazy, you can submit streamline the process.  First you need to tell git about your gerrit username:
 ```bash
-git config --global review.review.aosiprom.com.username <Your username registered at AOSiP gerrit>
+git config --global review.review.aosip.dev.username <Your username registered at AOSiP gerrit>
 ```
 
 Now you can run these commands to push changes to gerrit. Note: the first command only needs run once from each project.
