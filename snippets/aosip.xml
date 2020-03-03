@@ -8,8 +8,8 @@
            fetch="https://gitlab.com/" />
 
   <remote  name="aosip"
-           fetch="https://github.com/AOSiP"
-           revision="refs/heads/ten" />
+           fetch="https://github.com/kronic-staging"
+           revision="refs/heads/staging/android-10.0.0_r31" />
 
   <remote  name="staging"
            fetch="https://github.com/kronic-staging"
@@ -111,6 +111,9 @@
 
   <!-- Platform -->
   <project path="platform_testing" name="platform_platform_testing" remote="aosip" />
+
+  <!-- Tools -->
+  <project path="tools/apifinder" name="platform_tools_apifinder" remote="aosip" />
 
   <!-- System -->
   <project path="system/bt" name="platform_system_bt" remote="aosip" />
