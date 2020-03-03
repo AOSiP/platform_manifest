@@ -59,7 +59,6 @@
   <project path="external/proguard" name="platform_external_proguard" remote="aosip" />
   <project path="external/selinux" name="platform_external_selinux" remote="aosip" />
   <project path="external/skia" name="platform_external_skia" remote="aosip" />
-  <project path="external/sqlite" name="platform_external_sqlite" remote="aosip" />
   <project path="external/tinyalsa" name="platform_external_tinyalsa" remote="aosip" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
   <project path="external/toybox" name="platform_external_toybox" remote="aosip" />
@@ -68,10 +67,8 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
-  <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="aosip" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="staging" />
-  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="aosip" />
 
   <!-- Hardware -->
   <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip" />
@@ -121,6 +118,9 @@
   <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
   <project path="system/vold" name="platform_system_vold" remote="aosip" />
+
+  <!-- Tools -->
+  <project path="tools/apifinder" name="platform_tools_apifinder" remote="aosip" />
 
   <!-- Vendor -->
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
