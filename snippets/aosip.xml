@@ -15,6 +15,10 @@
            fetch="https://github.com/kronic-staging"
            revision="refs/heads/staging/android-10.0.0_r31" />
 
+  <remote  name="staging-caf"
+           fetch="https://github.com/kronic-staging"
+           revision="refs/heads/ten-ims" />
+
   <remote  name="devices"
            fetch="https://github.com/AOSiP-Devices"
            revision="refs/heads/ten" />
@@ -69,6 +73,7 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="staging" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="staging" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="staging" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="staging-caf" />
 
   <!-- Hardware -->
   <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip" />
@@ -93,6 +98,7 @@
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="staging" />
   <project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" remote="aosip" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="aosip" />
+  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="staging-caf" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="staging" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="aosip" />
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="aosip" />
@@ -103,8 +109,8 @@
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="staging" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="staging" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="staging" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="staging" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="staging" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="staging-caf" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="staging-caf" />
 
   <!-- Platform -->
   <project path="platform_testing" name="platform_platform_testing" remote="staging" />
@@ -124,7 +130,7 @@
 
   <!-- Vendor -->
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
-  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="staging" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="staging-caf" />
   <project path="vendor/overlay" name="platform_vendor_overlay" remote="aosip" />
   <project path="vendor/prebuilts" name="platform_vendor_prebuilts" remote="aosip" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
