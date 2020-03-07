@@ -80,7 +80,6 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/net/ims" />
-  <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
@@ -126,7 +125,6 @@
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
-  <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -142,7 +140,6 @@
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
-  <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/platform_testing" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
