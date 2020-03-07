@@ -27,6 +27,11 @@ source build/envsetup.sh
 lunch aosip_device-userdebug
 time m kronic
 
+If you are building for a OnePlus device that supports Verizon, before lunching device enter:
+repopick -t op-vzw-mani
+and then resync source to grab the necessary repos. then after lunching device enter
+repopick -t op-vzw
+
 If you would like to include gapps in your build, after lunching device enter:
 export WITH_GAPPS=true
 ```

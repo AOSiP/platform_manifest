@@ -81,6 +81,7 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/datetimepicker" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/timezonepicker" />
   <remove-project name="platform/hardware/broadcom/libbt" />
@@ -130,6 +131,7 @@
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />

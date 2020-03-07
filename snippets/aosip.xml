@@ -11,6 +11,10 @@
            fetch="https://github.com/AOSiP"
            revision="refs/heads/ten" />
 
+  <remote  name="aosip-caf"
+           fetch="https://github.com/AOSiP"
+           revision="refs/heads/ten-caf" />
+
   <remote  name="devices"
            fetch="https://github.com/AOSiP-Devices"
            revision="refs/heads/ten" />
@@ -75,7 +79,8 @@
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="aosip-caf" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip-caf" />
 
   <!-- Hardware -->
   <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip" />
@@ -106,6 +111,7 @@
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" />
   <project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" remote="aosip" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="aosip" />
+  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="aosip-caf" />
   <project path="packages/apps/PotatoPlugins" name="platform_packages_apps_PotatoPlugins" remote="aosip" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="aosip" />
@@ -119,8 +125,8 @@
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="aosip" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="aosip" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip-caf" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip-caf" />
 
   <!-- Platform -->
   <project path="platform_testing" name="platform_platform_testing" remote="aosip" />
@@ -146,7 +152,7 @@
 
   <!-- Vendor -->
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
-  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip-caf" />
   <project path="vendor/overlay" name="platform_vendor_overlay" remote="aosip" />
   <project path="vendor/pixelgapps" name="TeamIllusion/platform_vendor_pixelgapps" remote="gitlab" revision="ten" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
