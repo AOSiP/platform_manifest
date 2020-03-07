@@ -75,7 +75,6 @@
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
-  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="aosip" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" />
 
   <!-- Hardware -->
@@ -107,7 +106,6 @@
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" />
   <project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" remote="aosip" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="aosip" />
-  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="aosip" />
   <project path="packages/apps/PotatoPlugins" name="platform_packages_apps_PotatoPlugins" remote="aosip" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="aosip" />
