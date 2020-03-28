@@ -50,6 +50,7 @@
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="aosip" />
   <project path="external/google" name="platform_external_google" remote="aosip" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="aosip" />
+  <project path="external/motorola/faceunlock" name="platform_external_motorola_faceunlock" remote="aosip" />
   <project path="external/one-true-awk" name="platform_external_one-true-awk" remote="aosip" />
   <project path="external/perfetto" name="platform_external_perfetto" remote="aosip" />
   <project path="external/proguard" name="platform_external_proguard" remote="aosip" />
