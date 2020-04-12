@@ -11,6 +11,10 @@
            fetch="https://github.com/AOSiP"
            revision="refs/heads/ten" />
 
+  <remote  name="staging"
+           fetch="https://github.com/kronic-staging"
+           revision="refs/heads/ten" />
+
   <remote  name="devices"
            fetch="https://github.com/AOSiP-Devices"
            revision="refs/heads/ten" />
@@ -65,7 +69,7 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="aosip" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="kronic" />
 
   <!-- Hardware -->
   <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip" />
@@ -101,8 +105,8 @@
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="aosip" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="aosip" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="kronic" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="kronic" />
 
   <!-- Platform -->
   <project path="platform_testing" name="platform_platform_testing" remote="aosip" />
