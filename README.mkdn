@@ -20,12 +20,15 @@ repo sync --force-sync --no-tags --no-clone-bundle
 Building the source
 ---------------
 
-The source at AOSiP is well configured for building.
+The source at AOSiP is well configured for building. You can choose to build with or without gapps included.
 
 ```bash
 source build/envsetup.sh
 lunch aosip_device-userdebug
-time mka kronic
+time m kronic
+
+If you would like to include gapps in your build, after lunching device enter:
+export WITH_GAPPS=true
 ```
 
 ## Submitting Patches ##
