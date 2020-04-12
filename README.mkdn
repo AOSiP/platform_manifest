@@ -28,6 +28,15 @@ lunch aosip_device-userdebug
 time mka kronic
 ```
 
+Source is now set up to build with or without gapps included, if you wish to include gapps:
+
+```bash
+source build/envsetup.sh
+lunch aosip_device-userdebug
+export WITH_GAPPS=true
+time mka kronic
+```
+
 ## Submitting Patches ##
 
 You can submit your patches to AOSiP just by registering at "https://review.aosip.dev"
