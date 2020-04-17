@@ -68,6 +68,7 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/one-true-awk" />
   <remove-project name="platform/external/perfetto" />
+  <remove-project name="platform/external/ppp" />
   <remove-project name="platform/external/proguard" />
   <remove-project name="platform/external/python/appdirs" />
   <remove-project name="platform/external/python/cachetools" />
