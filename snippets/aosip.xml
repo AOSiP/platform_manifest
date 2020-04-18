@@ -70,6 +70,7 @@
   <!-- Hardware -->
   <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="aosip" />
+  <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform_hardware_knowles_athletico_sound_trigger_hal" remote="aosip" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="aosip" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="aosip" />
   <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="aosip" />
