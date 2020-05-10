@@ -112,6 +112,7 @@
   <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" remote="aosip" clone-depth="1" />
 
   <!-- System -->
+  <project path="system/bpf" name="platform_system_bpf" remote="aosip" />
   <project path="system/bt" name="platform_system_bt" remote="aosip" />
   <project path="system/core" name="platform_system_core" remote="aosip" />
   <project path="system/extras" name="platform_system_extras" remote="aosip" />
