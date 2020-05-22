@@ -22,6 +22,7 @@
   <project path="external/json-c" name="android_external_json-c" remote="los" />
   <project path="external/libavc" name="android_external_libavc" remote="los" />
   <project path="external/libcxx" name="android_external_libcxx" remote="los" />
+  <project path="external/libexif" name="android_external_libexif" remote="los" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="los" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="los" />
