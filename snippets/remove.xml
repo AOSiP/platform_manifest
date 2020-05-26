@@ -57,13 +57,17 @@
   <remove-project name="platform/development" />
   <remove-project name="platform/external/ARMComputeLibrary" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/one-true-awk" />
   <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/perfetto" />
+  <remove-project name="platform/external/ppp" />
   <remove-project name="platform/external/proguard" />
   <remove-project name="platform/external/python/asn1crypto" />
   <remove-project name="platform/external/python/cffi" />
@@ -80,8 +84,10 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/datetimepicker" />
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/opt/timezonepicker" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
@@ -147,6 +153,7 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/platform_testing" />
+  <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
@@ -168,6 +175,7 @@
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/timezone" />
   <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
