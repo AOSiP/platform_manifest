@@ -47,17 +47,11 @@
 
   <!-- External -->
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aosip" />
-  <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="aosip" />
   <project path="external/google" name="platform_external_google" remote="aosip" />
-  <project path="external/one-true-awk" name="platform_external_one-true-awk" remote="aosip" />
-  <project path="external/perfetto" name="platform_external_perfetto" remote="aosip" />
-  <project path="external/proguard" name="platform_external_proguard" remote="aosip" />
   <project path="external/selinux" name="platform_external_selinux" remote="aosip" />
-  <project path="external/skia" name="platform_external_skia" remote="aosip" />
   <project path="external/tinyalsa" name="platform_external_tinyalsa" remote="aosip" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
   <project path="external/toybox" name="platform_external_toybox" remote="aosip" />
-  <project path="external/zlib" name="platform_external_zlib" remote="aosip" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
@@ -118,7 +112,6 @@
   <project path="system/extras" name="platform_system_extras" remote="aosip" />
   <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" remote="aosip" />
   <project path="system/netd" name="platform_system_netd" remote="aosip" />
-  <project path="system/tools/hidl" name="platform_system_tools_hidl" remote="aosip" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
   <project path="system/vold" name="platform_system_vold" remote="aosip" />
