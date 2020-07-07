@@ -5,29 +5,11 @@
            fetch="https://github.com/LineageOS"
            revision="refs/heads/lineage-17.1" />
 
-  <!-- Device -->
-  <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="lineage" />
-
   <!-- External -->
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
-  <project path="external/bash" name="android_external_bash" remote="lineage" />
   <project path="external/cldr" name="android_external_cldr" remote="lineage" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="lineage" revision="master" clone-depth="1" />
-  <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
-  <project path="external/exfat" name="android_external_exfat" remote="lineage" />
-  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
-  <project path="external/json-c" name="android_external_json-c" remote="lineage" />
-  <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/icu" name="android_external_icu" remote="lineage" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libcxx" name="android_external_libcxx" remote="lineage" />
-  <project path="external/libhevc" name="android_external_libhevc" remote="lineage" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
-  <project path="external/mksh" name="android_external_mksh" remote="lineage" />
-  <project path="external/nano" name="android_external_nano" remote="lineage" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/openssh" name="android_external_openssh" remote="lineage" />
   <project path="external/p7zip" name="android_external_p7zip" remote="lineage" />
   <project path="external/pigz" name="android_external_pigz" remote="lineage" />
@@ -112,10 +94,6 @@
 
   <!-- Packages -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
-  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="lineage" />
-  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="lineage" />
-  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="lineage" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="lineage" />
