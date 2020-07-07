@@ -41,13 +41,29 @@
 
   <!-- Device -->
   <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="aosip" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="aosip" revision="ten-legacy" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="aosip" revision="ten-legacy-um" />
 
   <!-- External -->
+  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="aosip" />
+  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="aosip" />
+  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="aosip" />
+  <project path="external/bash" name="platform_external_bash" remote="aosip" />
+  <project path="external/connectivity" name="platform_external_connectivity" remote="aosip" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aosip" />
+  <project path="external/exfat" name="platform_external_exfat" remote="aosip" />
   <project path="external/google" name="platform_external_google" remote="aosip" />
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="aosip" />
+  <project path="external/htop" name="platform_external_htop" remote="aosip" />
+  <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
+  <project path="external/libncurses" name="platform_external_libncurses" remote="aosip" />
+  <project path="external/libhevc" name="platform_external_libhevc" remote="aosip" />
+  <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp" remote="aosip" />
+  <project path="external/mksh" name="platform_external_mksh" remote="aosip" />
+  <project path="external/nano" name="platform_external_nano" remote="aosip" />
+  <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aosip" />
   <project path="external/selinux" name="platform_external_selinux" remote="aosip" />
   <project path="external/skia" name="platform_external_skia" remote="aosip" />
   <project path="external/tinyalsa" name="platform_external_tinyalsa" remote="aosip" />
@@ -81,7 +97,9 @@
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="aosip" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="aosip" />
   <project path="packages/apps/Email" name="platform_packages_apps_Email" remote="aosip" />
-  <project path="packages/apps/UnifiedEmail" name="platform_packages_apps_UnifiedEmail" remote="aosip" />
+  <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" remote="aosip" />
+  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="aosip" />
+  <project path="packages/apps/Jelly" name="platform_packages_apps_Jelly" remote="aosip" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="aosip" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" />
@@ -90,7 +108,9 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="aosip" />
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="aosip" />
+  <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="aosip" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="aosip" />
+  <project path="packages/apps/UnifiedEmail" name="platform_packages_apps_UnifiedEmail" remote="aosip" />
   <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="aosip" />
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="aosip" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" />
@@ -104,7 +124,9 @@
   <project path="platform_testing" name="platform_platform_testing" remote="aosip" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="aosip" />
   <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" remote="aosip" clone-depth="1" />
+  <project path="prebuilts/r8" name="platform_prebuilts_r8" remote="aosip" clone-depth="1" />
 
   <!-- System -->
   <project path="system/bpf" name="platform_system_bpf" remote="aosip" />
