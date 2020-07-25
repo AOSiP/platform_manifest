@@ -14,6 +14,7 @@
   <project path="external/connectivity" name="android_external_connectivity" remote="los" />
   <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="los" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" remote="los" />
+  <project path="external/dng_sdk" name="android_external_dng_sdk" remote="los" />
   <project path="external/elfutils" name="android_external_elfutils" remote="los" />
   <project path="external/exfat" name="android_external_exfat" remote="los" />
   <project path="external/htop" name="android_external_htop" remote="los" />
