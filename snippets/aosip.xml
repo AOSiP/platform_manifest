@@ -146,6 +146,7 @@
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="aosip" />
+  <project path="packages/apps/Plugins" name="platform_packages_apps_PotatoPlugins" remote="aosip" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" />
   <project path="packages/apps/Settings/OwlsNest" name="platform_packages_apps_OwlsNest" remote="aosip" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="aosip" />
