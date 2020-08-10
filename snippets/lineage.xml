@@ -5,6 +5,10 @@
            fetch="https://github.com/LineageOS"
            revision="refs/heads/lineage-17.1" />
 
+  <remote  name="op5q"
+          fetch="https://github.com/op5-q"/>
+
+
   <!-- External -->
   <project path="external/cldr" name="android_external_cldr" remote="lineage" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="lineage" revision="master" clone-depth="1" />
@@ -79,9 +83,9 @@
   <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-17.1-caf-msm8996" />
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-17.1-caf-msm8996" />
   <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="lineage" revision="lineage-17.1-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-17.1-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-17.1-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="lineage" revision="lineage-17.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="op5q" revision="ten" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="op5q" revision="ten" />
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="op5q" revision="ten" />
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-17.1-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-17.1-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="lineage" revision="lineage-17.1-caf-sdm845" />
