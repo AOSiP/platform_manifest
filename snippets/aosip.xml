@@ -131,7 +131,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="aosip" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" remote="aosip" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="TeamIllusion/AOSiP/platform_prebuilts_clang_host_linux-x86" remote="gitlab" clone-depth="1" />
   <project path="prebuilts/r8" name="platform_prebuilts_r8" remote="aosip" clone-depth="1" />
 
   <!-- System -->
