@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="aosip"
+           fetch="https://github.com/AOSiP"
+           revision="refs/heads/eleven" />
+
+  <remote  name="devices"
+           fetch="https://github.com/AOSiP-Devices"
+           revision="refs/heads/eleven" />
+
+  <!-- AOSiP -->
+  <!-- General -->
+  <project path="art" name="platform_art" remote="aosip" />
+  <project path="bionic" name="platform_bionic" remote="aosip" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosip" />
+  <project path="manifest" name="platform_manifest" remote="aosip" />
+
+  <!-- Build -->
+  <project path="build/blueprint" name="platform_build_blueprint" remote="aosip" />
+  <project path="build/make" name="platform_build" remote="aosip" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" remote="aosip" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device -->
+  <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="aosip" />
+  <project path="device/generic/goldfish-opengl" name="device_generic_goldfish-opengl" remote="aosip" />
+  <!--project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="aosip" revision="ten-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="aosip" revision="ten-legacy-um" / -->
+
+  <!-- External -->
+  <project path="external/guice" name="platform_external_guice" remote="aosip" />
+  <project path="external/libcxx" name="platform_external_libcxx" remote="aosip" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
+
+  <!-- Hardware -->
+  <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="aosip" />
+  <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform_hardware_knowles_athletico_sound_trigger_hal" remote="aosip" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="aosip" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="aosip" />
+  <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="aosip" />
+  <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" remote="aosip" >
+    <!-- add guard for AOSP hardware/qcom dir > -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+  </project>
+  <project path="hardware/qcom/data/ipacfg-mgr" name="platform_hardware_qcom_data_ipacfg-mgr" remote="aosip" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="aosip" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="aosip" />
+  <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" remote="aosip" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" remote="aosip" />
+  <project path="packages/apps/CertInstaller" name="platform_packages_apps_CertInstaller" remote="aosip" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="aosip" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="aosip" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="aosip" />
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="aosip" />
+  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="aosip" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="aosip" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" />
+  <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="aosip" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" />
+  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="aosip" />
+  <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="aosip" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="aosip" />
+  <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="aosip" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" />
+  <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="aosip" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="aosip" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" />
+
+  <!-- Platform -->
+  <project path="platform_testing" name="platform_platform_testing" remote="aosip" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="aosip" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="aosip" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="aosip" clone-depth="1" />
+  <project path="prebuilts/tools-lineage" name="platform_prebuilts_tools-aosip" remote="aosip" />
+
+  <!-- System -->
+  <project path="system/bpf" name="platform_system_bpf" remote="aosip" />
+  <project path="system/bt" name="platform_system_bt" remote="aosip" />
+  <project path="system/core" name="platform_system_core" remote="aosip" />
+  <project path="system/extras" name="platform_system_extras" remote="aosip" />
+  <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" remote="aosip" />
+  <project path="system/incremental_delivery" name="platform_system_incremental_delivery" remote="aosip" />
+  <project path="system/libufdt" name="platform_system_libufdt" remote="aosip" />
+  <project path="system/netd" name="platform_system_netd" remote="aosip" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
+  <project path="system/vold" name="platform_system_vold" remote="aosip" />
+
+  <!-- Tools -->
+  <project path="tools/apifinder" name="platform_tools_apifinder" remote="aosip" />
+  <project path="tools/metalava" name="platform_tools_metalava" remote="aosip" />
+
+  <!-- Vendor -->
+  <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
+  <!--project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" /-->
+  <project path="vendor/overlay" name="platform_vendor_overlay" remote="aosip" />
+</manifest>
+
