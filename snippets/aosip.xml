@@ -128,6 +128,7 @@
 
   <!-- Platform -->
   <project path="platform_testing" name="platform_platform_testing" remote="aosip" />
+  <project path="packages/apps/Seedvault" name="abdoi94/android_packages_apps_Seedvault" remote="github" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="aosip" />
