@@ -146,7 +146,7 @@
 
   <!-- Vendor -->
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
-  <!--project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
-  <project path="vendor/overlay" name="platform_vendor_overlay" remote="aosip" / -->
+  <!--project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" /-->
+  <project path="vendor/overlay" name="platform_vendor_overlay" remote="aosip" />
 </manifest>
 
