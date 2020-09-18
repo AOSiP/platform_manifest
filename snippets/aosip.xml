@@ -48,6 +48,7 @@
 
   <!-- External -->
   <project path="external/guice" name="platform_external_guice" remote="aosip" />
+  <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
   <project path="external/libcxx" name="platform_external_libcxx" remote="aosip" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
 
@@ -88,8 +89,11 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
+  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="aosip" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform_hardware_qcom_data_ipacfg-mgr" remote="aosip" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="aosip" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="aosip" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="aosip" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
 
   <!-- Packages -->
