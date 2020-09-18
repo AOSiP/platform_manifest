@@ -48,6 +48,7 @@
 
   <!-- External -->
   <project path="external/guice" name="platform_external_guice" remote="aosip" />
+  <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
   <project path="external/libcxx" name="platform_external_libcxx" remote="aosip" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
 
