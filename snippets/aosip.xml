@@ -96,6 +96,7 @@
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="aosip" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="aosip" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="aosip" />
+  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="platform_hardware_qcom_sm8150_data_ipacfg-mgr" remote="aosip" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
 
   <!-- Packages -->
@@ -152,7 +153,7 @@
 
   <!-- Vendor -->
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
-  <!--project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" /-->
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/overlay" name="platform_vendor_overlay" remote="aosip" />
 </manifest>
 
