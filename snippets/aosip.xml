@@ -42,9 +42,10 @@
   <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="aosip" />
   <project path="device/generic/goldfish-opengl" name="device_generic_goldfish-opengl" remote="aosip" />
-  <!--project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
-  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="aosip" revision="ten-legacy" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="aosip" revision="ten-legacy-um" / -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
+  <!--project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="aosip" revision="eleven-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="aosip" revision="eleven-legacy-um" /-->
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy" remote="aosip" revision="eleven-vndr" />
 
   <!-- External -->
   <project path="external/guice" name="platform_external_guice" remote="aosip" />
