@@ -20,6 +20,7 @@
   <project path="art" name="platform_art" remote="aosip" />
   <project path="bionic" name="platform_bionic" remote="aosip" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosip" />
+  <project path="development" name="platform_development" remote="aosip" />
   <project path="manifest" name="platform_manifest" remote="aosip" />
 
   <!-- Build -->
@@ -48,6 +49,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy" remote="aosip" revision="eleven-vndr" />
 
   <!-- External -->
+  <project path="external/connectivity" name="platform_external_connectivity" remote="aosip" />
   <project path="external/guice" name="platform_external_guice" remote="aosip" />
   <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
   <project path="external/libcxx" name="platform_external_libcxx" remote="aosip" />
@@ -157,5 +159,11 @@
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/overlay" name="platform_vendor_overlay" remote="aosip" />
+  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="aosip" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aosip" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" />
+  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="aosip" />
+  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="aosip" />
 </manifest>
 
