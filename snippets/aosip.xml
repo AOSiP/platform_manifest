@@ -44,8 +44,8 @@
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="aosip" />
   <project path="device/generic/goldfish-opengl" name="device_generic_goldfish-opengl" remote="aosip" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
-  <!--project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="aosip" revision="eleven-legacy" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="aosip" revision="eleven-legacy-um" /-->
+  <!--project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="aosip" revision="eleven-legacy" /-->
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="aosip" revision="eleven-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy" remote="aosip" revision="eleven-vndr" />
 
   <!-- External -->
@@ -102,6 +102,7 @@
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="aosip" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="aosip" />
   <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="platform_hardware_qcom_sm8150_data_ipacfg-mgr" remote="aosip" />
+  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aosip" revision="eleven-caf" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
 
   <!-- Packages -->
@@ -158,5 +159,14 @@
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/gapps" name="TeamIllusion/platform_vendor_kronicgapps" remote="gitlab" revision="eleven" />
   <project path="vendor/overlay" name="platform_vendor_overlay" remote="aosip" />
+  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="aosip" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_packages_apps_Bluetooth" remote="aosip" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" remote="aosip" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aosip" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" />
+  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="aosip" />
+  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="aosip" />
 </manifest>
 
