@@ -102,7 +102,7 @@
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="aosip" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="aosip" />
   <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="platform_hardware_qcom_sm8150_data_ipacfg-mgr" remote="aosip" />
-  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aosip" revision="eleven-caf" />
+  <project path="hardware/qcom-caf/wlan" name="platform/hardware/qcom/wlan" remote="aosp" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
 
   <!-- Packages -->
