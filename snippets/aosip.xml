@@ -53,6 +53,7 @@
   <project path="external/guice" name="platform_external_guice" remote="aosip" />
   <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
   <project path="external/libcxx" name="platform_external_libcxx" remote="aosip" />
+  <project path="external/mksh" name="platform_external_mksh" remote="aosip" />
   <project path="external/perfetto" name="platform_external_perfetto" remote="aosip" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
 
@@ -144,6 +145,7 @@
   <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" remote="aosip" />
   <project path="system/incremental_delivery" name="platform_system_incremental_delivery" remote="aosip" />
   <project path="system/libufdt" name="platform_system_libufdt" remote="aosip" />
+  <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" remote="aosip" />
   <project path="system/netd" name="platform_system_netd" remote="aosip" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
@@ -158,5 +160,6 @@
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/gapps" name="TeamIllusion/platform_vendor_kronicgapps" remote="gitlab" revision="eleven" />
   <project path="vendor/overlay" name="platform_vendor_overlay" remote="aosip" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" />
 </manifest>
 
