@@ -102,7 +102,10 @@
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="aosip" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="aosip" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="aosip" />
-  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="platform_hardware_qcom_sm8150_data_ipacfg-mgr" remote="aosip" />
+  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="platform_hardware_qcom_sm8150_data_ipacfg-mgr" groups="qcom_sm8150" remote="aosip" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
+  </project>
   <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
 
   <!-- Packages -->
