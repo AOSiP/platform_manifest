@@ -18,14 +18,14 @@
   <!-- AOSiP -->
   <!-- General -->
   <project path="art" name="platform_art" remote="aosip" />
-  <project path="bionic" name="platform_bionic" remote="aosip" />
-  <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosip" />
+  <project path="bionic" name="platform_bionic" remote="aosip" revision="refs/changes/12/15512/1" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosip" revision="refs/changes/93/15293/2" />
   <project path="development" name="platform_development" remote="aosip" />
   <project path="manifest" name="platform_manifest" remote="aosip" />
 
   <!-- Build -->
   <project path="build/blueprint" name="platform_build_blueprint" remote="aosip" />
-  <project path="build/make" name="platform_build" remote="aosip" >
+  <project path="build/make" name="platform_build" remote="aosip" revision="refs/changes/16/15516/2" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -34,13 +34,13 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="platform_build_soong" remote="aosip" >
+  <project path="build/soong" name="platform_build_soong" remote="aosip" revision="refs/changes/17/15517/2" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <!-- Device -->
-  <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip" />
+  <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip" revision="refs/changes/86/15086/2" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="aosip" />
   <project path="device/generic/goldfish-opengl" name="device_generic_goldfish-opengl" remote="aosip" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
@@ -50,22 +50,22 @@
 
   <!-- External -->
   <project path="external/connectivity" name="platform_external_connectivity" remote="aosip" />
-  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aosip" />
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aosip" revision="refs/changes/97/15297/1" />
   <project path="external/guice" name="platform_external_guice" remote="aosip" />
   <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
   <project path="external/libcxx" name="platform_external_libcxx" remote="aosip" />
   <project path="external/mksh" name="platform_external_mksh" remote="aosip" />
-  <project path="external/perfetto" name="platform_external_perfetto" remote="aosip" />
-  <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
+  <project path="external/perfetto" name="platform_external_perfetto" remote="aosip" revision="refs/changes/71/14971/1" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" revision="refs/changes/15/15515/1" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" revision="refs/changes/74/14674/3" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" revision="refs/changes/28/14828/8" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" revision="refs/changes/78/15478/2" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" revision="refs/changes/86/15186/2" />
 
   <!-- Hardware -->
-  <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip" />
+  <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip" revision="refs/changes/11/15511/1" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="aosip" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform_hardware_knowles_athletico_sound_trigger_hal" remote="aosip" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="aosip" />
@@ -101,37 +101,37 @@
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform_hardware_qcom_data_ipacfg-mgr" remote="aosip" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="aosip" />
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="aosip" />
-  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="aosip" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="aosip" revision="refs/changes/75/14475/1" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="aosip" />
   <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="platform_hardware_qcom_sm8150_data_ipacfg-mgr" groups="qcom_sm8150" remote="aosip" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
   </project>
-  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aosip" revision="eleven-caf" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
+  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aosip" revision="refs/changes/13/15013/1" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" revision="refs/changes/82/14982/1" />
 
   <!-- Packages -->
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="aosip" />
-  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="aosip" />
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="aosip" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="aosip" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="aosip" revision="refs/changes/63/15063/1" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="aosip" revision="refs/changes/21/15421/1" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="aosip" revision="refs/changes/11/15411/1" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="aosip" revision="refs/changes/41/14841/1" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="aosip" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="aosip" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="aosip" />
-  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" />
-  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" revision="refs/changes/77/15477/1"/>
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" revision="refs/changes/01/15301/1" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="aosip" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" revision="refs/changes/08/15308/2" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="aosip" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="aosip" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="aosip" />
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="aosip" />
-  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" />
-  <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="aosip" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" revision="refs/changes/76/15376/1" />
+  <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="aosip" revision="refs/changes/08/14908/1" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="aosip" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip" revision="refs/changes/84/15184/2" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" revision="refs/changes/18/14918/2" />
 
   <!-- Platform -->
   <project path="platform_testing" name="platform_platform_testing" remote="aosip" />
@@ -145,8 +145,8 @@
 
   <!-- System -->
   <project path="system/bpf" name="platform_system_bpf" remote="aosip" />
-  <project path="system/bt" name="platform_system_bt" remote="aosip" />
-  <project path="system/core" name="platform_system_core" remote="aosip" />
+  <project path="system/bt" name="platform_system_bt" remote="aosip" revision="refs/changes/80/15080/3" />
+  <project path="system/core" name="platform_system_core" remote="aosip" revision="refs/changes/18/15518/1" />
   <project path="system/extras" name="platform_system_extras" remote="aosip" />
   <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" remote="aosip" />
   <project path="system/incremental_delivery" name="platform_system_incremental_delivery" remote="aosip" />
@@ -155,25 +155,25 @@
   <project path="system/netd" name="platform_system_netd" remote="aosip" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
-  <project path="system/vold" name="platform_system_vold" remote="aosip" />
+  <project path="system/vold" name="platform_system_vold" remote="aosip" revision="refs/changes/02/15002/7" />
 
   <!-- Tools -->
   <project path="tools/apifinder" name="platform_tools_apifinder" remote="aosip" />
   <project path="tools/metalava" name="platform_tools_metalava" remote="aosip" />
 
   <!-- Vendor -->
-  <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
+  <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" revision="refs/changes/96/15296/7" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/gapps" name="TeamIllusion/platform_vendor_kronicgapps" remote="gitlab" revision="eleven" />
-  <project path="vendor/overlay" name="platform_vendor_overlay" remote="aosip" />
+  <project path="vendor/overlay" name="platform_vendor_overlay" remote="aosip" revision="refs/changes/80/15480/1" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="aosip" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_packages_apps_Bluetooth" remote="aosip" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" remote="aosip" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_packages_apps_Bluetooth" remote="aosip" revision="refs/changes/71/15071/1" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" remote="aosip" revision="refs/changes/64/15064/1" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aosip" />
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" />
-  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="aosip" />
-  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="aosip" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" revision="refs/changes/14/15514/1" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" revision="refs/changes/82/15082/1" />
+  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="aosip" revision="refs/changes/90/14890/1" />
+  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="aosip" revision="refs/changes/07/14907/2" />
 </manifest>
 
