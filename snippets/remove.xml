@@ -60,6 +60,7 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/qcom/msm8998" />
   <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/packages/apps/BasicSmsReceiver" />
