@@ -38,6 +38,7 @@
   <project path="external/vim" name="android_external_vim" remote="los" />
   <project path="external/v8" name="android_external_v8" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />
+  <project path="external/aac" name="android_external_aac" remote="los" />
 
   <!-- Hardware -->
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
