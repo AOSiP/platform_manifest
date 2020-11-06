@@ -47,6 +47,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="aosip" revision="ten-legacy-um" />
 
   <!-- External -->
+  <project path="external/aac" name="platform_external_aac" remote="aosip" />
   <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="aosip" />
   <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="aosip" />
   <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="aosip" />
@@ -57,6 +58,7 @@
   <project path="external/google" name="platform_external_google" remote="aosip" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="aosip" />
   <project path="external/htop" name="platform_external_htop" remote="aosip" />
+  <project path="external/libexif" name="platform_external_libexif" remote="aosip" />  
   <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
   <project path="external/libncurses" name="platform_external_libncurses" remote="aosip" />
   <project path="external/libhevc" name="platform_external_libhevc" remote="aosip" />
