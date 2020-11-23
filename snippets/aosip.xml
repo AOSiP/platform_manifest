@@ -196,6 +196,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="aosip" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="platform_vendor_qcom_opensource_thermal-engine" remote="aosip" />
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="aosip" />
 
 </manifest>
