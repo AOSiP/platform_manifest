@@ -55,6 +55,7 @@
   <project path="external/bash" name="platform_external_bash" remote="aosip" />
   <project path="external/connectivity" name="platform_external_connectivity" remote="aosip" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aosip" />
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="aosip" />
   <project path="external/guice" name="platform_external_guice" remote="aosip" />
   <project path="external/htop" name="platform_external_htop" remote="aosip" />
   <project path="external/libncurses" name="platform_external_libncurses" remote="aosip" />
