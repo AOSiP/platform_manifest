@@ -58,6 +58,7 @@
   <project path="external/google" name="platform_external_google" remote="aosip" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="aosip" />
   <project path="external/htop" name="platform_external_htop" remote="aosip" />
+  <project path="external/libaom" name="platform_external_libaom" remote="aosip" />
   <project path="external/libexif" name="platform_external_libexif" remote="aosip" />  
   <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
   <project path="external/libncurses" name="platform_external_libncurses" remote="aosip" />
@@ -156,6 +157,7 @@
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/overlay" name="platform_vendor_overlay" remote="aosip" />
   <project path="vendor/pixelgapps" name="TeamIllusion/platform_vendor_pixelgapps" remote="gitlab" revision="ten" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" remote="aosip" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
 </manifest>
 
