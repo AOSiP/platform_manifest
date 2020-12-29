@@ -124,6 +124,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
   </project>
+  <project path="hardware/qcom/sm8150/display" name="platform_hardware_qcom_sm8150_display" remote="aosip" />
+  <project path="hardware/qcom/sm8150/media" name="platform_hardware_qcom_sm8150_media" remote="aosip" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aosip" revision="eleven-caf" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
 
