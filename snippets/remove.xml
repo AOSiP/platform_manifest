@@ -9,6 +9,9 @@
   <remove-project name="device/google/bonito" />
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bonito-sepolicy" />
+  <remove-project name="device/google/bramble"/>
+  <remove-project name="device/google/bramble-kernel"/>
+  <remove-project name="device/google/bramble-sepolicy"/>
   <remove-project name="device/google/coral"/>
   <remove-project name="device/google/coral-kernel"/>
   <remove-project name="device/google/coral-sepolicy"/>
@@ -16,13 +19,14 @@
   <remove-project name="device/google/crosshatch-kernel"/>
   <remove-project name="device/google/crosshatch-sepolicy"/>
   <remove-project name="device/google/fuchsia" />
-  <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/redbull"/>
+  <remove-project name="device/google/redbull-sepolicy"/>
+  <remove-project name="device/google/redfin"/>
+  <remove-project name="device/google/redfin-kernel"/>
+  <remove-project name="device/google/redfin-sepolicy"/>
   <remove-project name="device/google/sunfish"/>
   <remove-project name="device/google/sunfish-kernel"/>
   <remove-project name="device/google/sunfish-sepolicy"/>
-  <remove-project name="device/google/taimen" />
-  <remove-project name="device/google/wahoo" />
-  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
   <remove-project name="device/linaro/bootloader/edk2" />
   <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
@@ -62,7 +66,6 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/keymaster" />
-  <remove-project name="platform/hardware/qcom/msm8998" />
   <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/packages/apps/BasicSmsReceiver" />
