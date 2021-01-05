@@ -55,6 +55,7 @@
   <project path="external/connectivity" name="platform_external_connectivity" remote="aosip" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aosip" />
   <project path="external/exfat" name="platform_external_exfat" remote="aosip" />
+  <project path="external/freetype" name="platform_external_freetype" remote="aosip" />
   <project path="external/google" name="platform_external_google" remote="aosip" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="aosip" />
   <project path="external/htop" name="platform_external_htop" remote="aosip" />
@@ -78,6 +79,7 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
+  <project path="frameworks/minikin" name="platform_frameworks_minikin" remote="aosip" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="aosip" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="aosip" />
@@ -145,8 +147,9 @@
   <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" remote="aosip" />
   <project path="system/libufdt" name="platform_system_libufdt" remote="aosip" />
   <project path="system/netd" name="platform_system_netd" remote="aosip" />
-  <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
+  <project path="system/security" name="platform_system_security" remote="aosip" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
   <project path="system/vold" name="platform_system_vold" remote="aosip" />
 
   <!-- Tools -->
