@@ -182,6 +182,7 @@
 
   <!-- Tools -->
   <project path="tools/apifinder" name="platform_tools_apifinder" remote="aosip" />
+  <project path="tools/extract-utils" name="platform_tools_extract-utils" remote="aosip" />
   <project path="tools/metalava" name="platform_tools_metalava" remote="aosip" />
 
   <!-- Vendor -->
