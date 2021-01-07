@@ -66,6 +66,7 @@
   <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aosip" />
   <project path="external/openssh" name="platform_external_openssh" remote="aosip" />
   <project path="external/perfetto" name="platform_external_perfetto" remote="aosip" />
+  <project path="external/pulse" name="platform_external_pulse" remote="aosip" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
 
   <!-- Frameworks -->
