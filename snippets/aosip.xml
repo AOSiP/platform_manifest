@@ -206,6 +206,7 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="platform_vendor_qcom_opensource_thermal-engine" remote="aosip" />
   <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="aosip" />
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="aosip" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="platform_vendor_qcom_opensource_wfd-commonsys" remote="aosip" />
 
 </manifest>
 
