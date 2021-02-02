@@ -68,6 +68,7 @@
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/okhttp" />
   <remove-project name="platform/external/one-true-awk" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/ppp" />
@@ -114,6 +115,7 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/v8" />
+  <remove-project name="platform/wpa_supplicant_8" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
@@ -227,4 +229,5 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/test/vti/alert" />
+  <remove-project name="platform/libcore" />
 </manifest>
