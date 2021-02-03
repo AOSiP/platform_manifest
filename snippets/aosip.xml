@@ -60,6 +60,7 @@
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="aosip" />
   <project path="external/htop" name="platform_external_htop" remote="aosip" />
   <project path="external/libaom" name="platform_external_libaom" remote="aosip" />
+  <project path="external/libavc" name="platform_external_libavc" remote="aosip" />
   <project path="external/libexif" name="platform_external_libexif" remote="aosip" />  
   <project path="external/json-c" name="platform_external_json-c" remote="aosip" />
   <project path="external/libncurses" name="platform_external_libncurses" remote="aosip" />
@@ -68,6 +69,7 @@
   <project path="external/mksh" name="platform_external_mksh" remote="aosip" />
   <project path="external/nano" name="platform_external_nano" remote="aosip" />
   <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aosip" />
+  <project path="external/okhttp" name="platform_external_okhttp" remote="aosip" />
   <project path="external/pulse" name="platform_external_pulse" remote="aosip" />
   <project path="external/selinux" name="platform_external_selinux" remote="aosip" />
   <project path="external/skia" name="platform_external_skia" remote="aosip" />
@@ -75,6 +77,7 @@
   <project path="external/tinyalsa" name="platform_external_tinyalsa" remote="aosip" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
   <project path="external/toybox" name="platform_external_toybox" remote="aosip" />
+  <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" remote="aosip" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
@@ -95,6 +98,9 @@
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform_hardware_qcom_data_ipacfg-mgr" remote="aosip" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="aosip" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
+
+  <!-- Libcore -->
+  <project path="libcore" name="platform_libcore" remote="aosip" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="aosip" />
