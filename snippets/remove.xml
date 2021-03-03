@@ -52,6 +52,7 @@
   <remove-project name="platform/development" />
   <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/dnsmasq" />
   <remove-project name="platform/external/dng_sdk" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/elfutils" />
@@ -217,6 +218,7 @@
   <remove-project name="platform/prebuilts/maven_repo/google-play-service-client-libraries-3p" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/connectivity/wificond" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/media" />

@@ -14,6 +14,7 @@
   <project path="external/connectivity" name="android_external_connectivity" remote="los" />
   <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="los" /> <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" 
 remote="los" revision="master" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="los" />
   <project path="external/dng_sdk" name="android_external_dng_sdk" remote="los" />
   <project path="external/elfutils" name="android_external_elfutils" remote="los" />
   <project path="external/exfat" name="android_external_exfat" remote="los" />
@@ -110,6 +111,7 @@ remote="los" revision="master" />
   <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" remote="los" />
 
   <!-- System -->
+  <project path="system/connectivity/wificond" name="android_system_connectivity_wificond" remote="los" />
   <project path="system/media" name="android_system_media" remote="los" />
   <project path="system/timezone" name="android_system_timezone" remote="los" />
   <project path="system/security" name="android_system_security" remote="los" />
