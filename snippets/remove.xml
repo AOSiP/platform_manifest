@@ -68,7 +68,7 @@
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="platform/external/mksh" />
-  <remove-project name="platform/okhttp" />
+  <remove-project name="platform/external/okhttp" />
   <remove-project name="platform/external/one-true-awk" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/ppp" />
