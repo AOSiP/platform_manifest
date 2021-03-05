@@ -12,8 +12,8 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
   <project path="external/bash" name="android_external_bash" remote="los" />
   <project path="external/connectivity" name="android_external_connectivity" remote="los" />
-  <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="los" />
-  <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" remote="los" />
+  <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="los" /> <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" 
+remote="los" revision="master" />
   <project path="external/dng_sdk" name="android_external_dng_sdk" remote="los" />
   <project path="external/elfutils" name="android_external_elfutils" remote="los" />
   <project path="external/exfat" name="android_external_exfat" remote="los" />
