@@ -8,6 +8,7 @@
   <!-- External -->
   <project path="external/cldr" name="android_external_cldr" remote="lineage" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="lineage" revision="master" clone-depth="1" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="lineage" />
   <project path="external/icu" name="android_external_icu" remote="lineage" />
   <project path="external/libcxx" name="android_external_libcxx" remote="lineage" />
   <project path="external/openssh" name="android_external_openssh" remote="lineage" />
@@ -17,6 +18,7 @@
   <project path="external/rsync" name="android_external_rsync" remote="lineage" />
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
   <project path="external/vim" name="android_external_vim" remote="lineage" />
+  <project path="external/v8" name="android_external_v8" remote="lineage" />
   <project path="external/zip" name="android_external_zip" remote="lineage" />
 
   <!-- Frameworks -->
@@ -101,8 +103,10 @@
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="lineage" />
 
   <!-- System -->
+  <project path="system/connectivity/wificond" name="android_system_connectivity_wificond" remote="lineage" />
   <project path="system/timezone" name="android_system_timezone" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
+  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="lineage" />
 
   <!-- Vendor -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
