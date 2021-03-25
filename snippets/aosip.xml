@@ -153,6 +153,7 @@
   <project path="packages/apps/SimpleDeviceConfig" name="platform_packages_apps_SimpleDeviceConfig" remote="aosip" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="aosip" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="aosip" />
+  <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="aosip" />
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="aosip" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" />
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="aosip" />
