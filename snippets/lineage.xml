@@ -44,6 +44,7 @@ remote="los" revision="master" />
   <project path="external/aac" name="android_external_aac" remote="los" />
 
   <!-- Frameworks -->
+  <project path="frameworks/hardware/interfaces" name="android_frameworks_hardware_interfaces" remote="los" />
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="los" />
 
   <!-- Hardware -->
