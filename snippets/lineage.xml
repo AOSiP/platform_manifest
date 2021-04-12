@@ -22,6 +22,7 @@
   <project path="external/zip" name="android_external_zip" remote="lineage" />
 
   <!-- Frameworks -->
+  <project path="frameworks/hardware/interfaces" name="android_frameworks_hardware_interfaces" remote="lineage" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="lineage" />
 
   <!-- Hardware -->
