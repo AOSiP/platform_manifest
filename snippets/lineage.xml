@@ -7,6 +7,7 @@
 
   <!-- External -->
   <project path="external/cldr" name="android_external_cldr" remote="lineage" />
+  <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="lineage"/>
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="lineage" revision="master" clone-depth="1" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="lineage" />
   <project path="external/icu" name="android_external_icu" remote="lineage" />

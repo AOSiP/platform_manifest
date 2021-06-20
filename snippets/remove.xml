@@ -57,6 +57,7 @@
   <remove-project name="platform/development" />
   <remove-project name="platform/external/ARMComputeLibrary" />
   <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/dnsmasq" />
