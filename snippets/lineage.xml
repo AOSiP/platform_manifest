@@ -46,6 +46,7 @@ remote="los" revision="master" />
   <!-- Frameworks -->
   <project path="frameworks/hardware/interfaces" name="android_frameworks_hardware_interfaces" remote="los" />
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="los" />
+  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="los" />
 
   <!-- Hardware -->
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
@@ -113,6 +114,7 @@ remote="los" revision="master" />
 
   <!-- System -->
   <project path="system/connectivity/wificond" name="android_system_connectivity_wificond" remote="los" />
+  <project path="system/libfmq" name="android_system_libfmq" remote="los" />
   <project path="system/media" name="android_system_media" remote="los" />
   <project path="system/timezone" name="android_system_timezone" remote="los" />
   <project path="system/security" name="android_system_security" remote="los" />
