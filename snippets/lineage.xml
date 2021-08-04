@@ -116,6 +116,7 @@ remote="los" revision="master" />
   <!-- System -->
   <project path="system/connectivity/wificond" name="android_system_connectivity_wificond" remote="los" />
   <project path="system/libfmq" name="android_system_libfmq" remote="los" />
+  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="los" />
   <project path="system/media" name="android_system_media" remote="los" />
   <project path="system/timezone" name="android_system_timezone" remote="los" />
   <project path="system/security" name="android_system_security" remote="los" />
